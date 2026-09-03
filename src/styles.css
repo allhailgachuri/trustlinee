@@ -151,7 +151,6 @@
   --destructive-foreground: oklch(0.98 0.004 250);
   --border: oklch(1 0 0 / 12%);
   --input: oklch(1 0 0 / 16%);
-  --ring: oklch(0.six 0 0);
   --ring: oklch(0.6 0.12 248);
 
   --ink: oklch(0.15 0.026 259);
