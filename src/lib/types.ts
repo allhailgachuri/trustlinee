@@ -131,8 +131,8 @@ export interface Application {
   riskBand: RiskBand;
   decision: Decision;
   createdAt: string;
-  reviewedBy?: string;
-  notes?: string;
+  reviewedBy?: string | undefined;
+  notes?: string | undefined;
 }
 
 export interface RiskAssessmentInput {

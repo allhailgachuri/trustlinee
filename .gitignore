@@ -14,7 +14,16 @@ dist-ssr
 .vinxi
 .tanstack/**
 .nitro
+.vercel
 *.local
+
+# Reference projects
+Credit-Risk-Scorecard-main/
+banking-risk-loan-default-prediction-main/
+loan-default-risk-system-main/
+*.parquet
+*.pkl
+*.joblib
 
 # Wrangler / Cloudflare
 .wrangler/

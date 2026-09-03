@@ -10,33 +10,375 @@
 
 import { Route as rootRouteImport } from './routes/__root'
 import { Route as IndexRouteImport } from './routes/index'
+import { Route as AboutRouteImport } from './routes/about'
+import { Route as AlternativeDataRouteImport } from './routes/alternative-data'
+import { Route as ExplainabilityRouteImport } from './routes/explainability'
+import { Route as HowItWorksRouteImport } from './routes/how-it-works'
+import { Route as ProductRouteImport } from './routes/product'
+import { Route as AppAnalyticsRouteImport } from './routes/app/analytics'
+import { Route as AppCohortsRouteImport } from './routes/app/cohorts'
+import { Route as AppDashboardRouteImport } from './routes/app/dashboard'
+import { Route as AppModelIntelligenceRouteImport } from './routes/app/model-intelligence'
+import { Route as AppPortfolioRouteImport } from './routes/app/portfolio'
+import { Route as AppRiskAssessmentRouteImport } from './routes/app/risk-assessment'
+import { Route as AppSettingsRouteImport } from './routes/app/settings'
+import { Route as AuthDemoRouteImport } from './routes/auth/demo'
+import { Route as AuthForgotPasswordRouteImport } from './routes/auth/forgot-password'
+import { Route as AuthLoginRouteImport } from './routes/auth/login'
+import { Route as AuthSignupRouteImport } from './routes/auth/signup'
+import { Route as AppAdminIndexRouteImport } from './routes/app/admin/index'
+import { Route as AppAdminAuditRouteImport } from './routes/app/admin/audit'
+import { Route as AppAdminRiskRulesRouteImport } from './routes/app/admin/risk-rules'
+import { Route as AppAdminUsersRouteImport } from './routes/app/admin/users'
+import { Route as AppApplicationsIndexRouteImport } from './routes/app/applications/index'
+import { Route as AppApplicationsIdRouteImport } from './routes/app/applications/$id'
+import { Route as AppBorrowersIndexRouteImport } from './routes/app/borrowers/index'
+import { Route as AppBorrowersIdRouteImport } from './routes/app/borrowers/$id'
+import { Route as AppReportsIndexRouteImport } from './routes/app/reports/index'
+import { Route as AppReportsIdRouteImport } from './routes/app/reports/$id'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AboutRoute = AboutRouteImport.update({
+  id: '/about',
+  path: '/about',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AlternativeDataRoute = AlternativeDataRouteImport.update({
+  id: '/alternative-data',
+  path: '/alternative-data',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ExplainabilityRoute = ExplainabilityRouteImport.update({
+  id: '/explainability',
+  path: '/explainability',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const HowItWorksRoute = HowItWorksRouteImport.update({
+  id: '/how-it-works',
+  path: '/how-it-works',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ProductRoute = ProductRouteImport.update({
+  id: '/product',
+  path: '/product',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppAnalyticsRoute = AppAnalyticsRouteImport.update({
+  id: '/app/analytics',
+  path: '/app/analytics',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppCohortsRoute = AppCohortsRouteImport.update({
+  id: '/app/cohorts',
+  path: '/app/cohorts',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppDashboardRoute = AppDashboardRouteImport.update({
+  id: '/app/dashboard',
+  path: '/app/dashboard',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppModelIntelligenceRoute = AppModelIntelligenceRouteImport.update({
+  id: '/app/model-intelligence',
+  path: '/app/model-intelligence',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppPortfolioRoute = AppPortfolioRouteImport.update({
+  id: '/app/portfolio',
+  path: '/app/portfolio',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppRiskAssessmentRoute = AppRiskAssessmentRouteImport.update({
+  id: '/app/risk-assessment',
+  path: '/app/risk-assessment',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppSettingsRoute = AppSettingsRouteImport.update({
+  id: '/app/settings',
+  path: '/app/settings',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthDemoRoute = AuthDemoRouteImport.update({
+  id: '/auth/demo',
+  path: '/auth/demo',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthForgotPasswordRoute = AuthForgotPasswordRouteImport.update({
+  id: '/auth/forgot-password',
+  path: '/auth/forgot-password',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthLoginRoute = AuthLoginRouteImport.update({
+  id: '/auth/login',
+  path: '/auth/login',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AuthSignupRoute = AuthSignupRouteImport.update({
+  id: '/auth/signup',
+  path: '/auth/signup',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppAdminIndexRoute = AppAdminIndexRouteImport.update({
+  id: '/app/admin/',
+  path: '/app/admin/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppAdminAuditRoute = AppAdminAuditRouteImport.update({
+  id: '/app/admin/audit',
+  path: '/app/admin/audit',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppAdminRiskRulesRoute = AppAdminRiskRulesRouteImport.update({
+  id: '/app/admin/risk-rules',
+  path: '/app/admin/risk-rules',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppAdminUsersRoute = AppAdminUsersRouteImport.update({
+  id: '/app/admin/users',
+  path: '/app/admin/users',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppApplicationsIndexRoute = AppApplicationsIndexRouteImport.update({
+  id: '/app/applications/',
+  path: '/app/applications/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppApplicationsIdRoute = AppApplicationsIdRouteImport.update({
+  id: '/app/applications/$id',
+  path: '/app/applications/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppBorrowersIndexRoute = AppBorrowersIndexRouteImport.update({
+  id: '/app/borrowers/',
+  path: '/app/borrowers/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppBorrowersIdRoute = AppBorrowersIdRouteImport.update({
+  id: '/app/borrowers/$id',
+  path: '/app/borrowers/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppReportsIndexRoute = AppReportsIndexRouteImport.update({
+  id: '/app/reports/',
+  path: '/app/reports/',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const AppReportsIdRoute = AppReportsIdRouteImport.update({
+  id: '/app/reports/$id',
+  path: '/app/reports/$id',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/alternative-data': typeof AlternativeDataRoute
+  '/explainability': typeof ExplainabilityRoute
+  '/how-it-works': typeof HowItWorksRoute
+  '/product': typeof ProductRoute
+  '/app/analytics': typeof AppAnalyticsRoute
+  '/app/cohorts': typeof AppCohortsRoute
+  '/app/dashboard': typeof AppDashboardRoute
+  '/app/model-intelligence': typeof AppModelIntelligenceRoute
+  '/app/portfolio': typeof AppPortfolioRoute
+  '/app/risk-assessment': typeof AppRiskAssessmentRoute
+  '/app/settings': typeof AppSettingsRoute
+  '/auth/demo': typeof AuthDemoRoute
+  '/auth/forgot-password': typeof AuthForgotPasswordRoute
+  '/auth/login': typeof AuthLoginRoute
+  '/auth/signup': typeof AuthSignupRoute
+  '/app/admin/audit': typeof AppAdminAuditRoute
+  '/app/admin/risk-rules': typeof AppAdminRiskRulesRoute
+  '/app/admin/users': typeof AppAdminUsersRoute
+  '/app/applications/$id': typeof AppApplicationsIdRoute
+  '/app/borrowers/$id': typeof AppBorrowersIdRoute
+  '/app/reports/$id': typeof AppReportsIdRoute
+  '/app/admin/': typeof AppAdminIndexRoute
+  '/app/applications/': typeof AppApplicationsIndexRoute
+  '/app/borrowers/': typeof AppBorrowersIndexRoute
+  '/app/reports/': typeof AppReportsIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/alternative-data': typeof AlternativeDataRoute
+  '/explainability': typeof ExplainabilityRoute
+  '/how-it-works': typeof HowItWorksRoute
+  '/product': typeof ProductRoute
+  '/app/analytics': typeof AppAnalyticsRoute
+  '/app/cohorts': typeof AppCohortsRoute
+  '/app/dashboard': typeof AppDashboardRoute
+  '/app/model-intelligence': typeof AppModelIntelligenceRoute
+  '/app/portfolio': typeof AppPortfolioRoute
+  '/app/risk-assessment': typeof AppRiskAssessmentRoute
+  '/app/settings': typeof AppSettingsRoute
+  '/auth/demo': typeof AuthDemoRoute
+  '/auth/forgot-password': typeof AuthForgotPasswordRoute
+  '/auth/login': typeof AuthLoginRoute
+  '/auth/signup': typeof AuthSignupRoute
+  '/app/admin/audit': typeof AppAdminAuditRoute
+  '/app/admin/risk-rules': typeof AppAdminRiskRulesRoute
+  '/app/admin/users': typeof AppAdminUsersRoute
+  '/app/applications/$id': typeof AppApplicationsIdRoute
+  '/app/borrowers/$id': typeof AppBorrowersIdRoute
+  '/app/reports/$id': typeof AppReportsIdRoute
+  '/app/admin': typeof AppAdminIndexRoute
+  '/app/applications': typeof AppApplicationsIndexRoute
+  '/app/borrowers': typeof AppBorrowersIndexRoute
+  '/app/reports': typeof AppReportsIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/about': typeof AboutRoute
+  '/alternative-data': typeof AlternativeDataRoute
+  '/explainability': typeof ExplainabilityRoute
+  '/how-it-works': typeof HowItWorksRoute
+  '/product': typeof ProductRoute
+  '/app/analytics': typeof AppAnalyticsRoute
+  '/app/cohorts': typeof AppCohortsRoute
+  '/app/dashboard': typeof AppDashboardRoute
+  '/app/model-intelligence': typeof AppModelIntelligenceRoute
+  '/app/portfolio': typeof AppPortfolioRoute
+  '/app/risk-assessment': typeof AppRiskAssessmentRoute
+  '/app/settings': typeof AppSettingsRoute
+  '/auth/demo': typeof AuthDemoRoute
+  '/auth/forgot-password': typeof AuthForgotPasswordRoute
+  '/auth/login': typeof AuthLoginRoute
+  '/auth/signup': typeof AuthSignupRoute
+  '/app/admin/audit': typeof AppAdminAuditRoute
+  '/app/admin/risk-rules': typeof AppAdminRiskRulesRoute
+  '/app/admin/users': typeof AppAdminUsersRoute
+  '/app/applications/$id': typeof AppApplicationsIdRoute
+  '/app/borrowers/$id': typeof AppBorrowersIdRoute
+  '/app/reports/$id': typeof AppReportsIdRoute
+  '/app/admin/': typeof AppAdminIndexRoute
+  '/app/applications/': typeof AppApplicationsIndexRoute
+  '/app/borrowers/': typeof AppBorrowersIndexRoute
+  '/app/reports/': typeof AppReportsIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths:
+    | '/'
+    | '/about'
+    | '/alternative-data'
+    | '/explainability'
+    | '/how-it-works'
+    | '/product'
+    | '/app/analytics'
+    | '/app/cohorts'
+    | '/app/dashboard'
+    | '/app/model-intelligence'
+    | '/app/portfolio'
+    | '/app/risk-assessment'
+    | '/app/settings'
+    | '/auth/demo'
+    | '/auth/forgot-password'
+    | '/auth/login'
+    | '/auth/signup'
+    | '/app/admin/audit'
+    | '/app/admin/risk-rules'
+    | '/app/admin/users'
+    | '/app/applications/$id'
+    | '/app/borrowers/$id'
+    | '/app/reports/$id'
+    | '/app/admin/'
+    | '/app/applications/'
+    | '/app/borrowers/'
+    | '/app/reports/'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/'
+  to:
+    | '/'
+    | '/about'
+    | '/alternative-data'
+    | '/explainability'
+    | '/how-it-works'
+    | '/product'
+    | '/app/analytics'
+    | '/app/cohorts'
+    | '/app/dashboard'
+    | '/app/model-intelligence'
+    | '/app/portfolio'
+    | '/app/risk-assessment'
+    | '/app/settings'
+    | '/auth/demo'
+    | '/auth/forgot-password'
+    | '/auth/login'
+    | '/auth/signup'
+    | '/app/admin/audit'
+    | '/app/admin/risk-rules'
+    | '/app/admin/users'
+    | '/app/applications/$id'
+    | '/app/borrowers/$id'
+    | '/app/reports/$id'
+    | '/app/admin'
+    | '/app/applications'
+    | '/app/borrowers'
+    | '/app/reports'
+  id:
+    | '__root__'
+    | '/'
+    | '/about'
+    | '/alternative-data'
+    | '/explainability'
+    | '/how-it-works'
+    | '/product'
+    | '/app/analytics'
+    | '/app/cohorts'
+    | '/app/dashboard'
+    | '/app/model-intelligence'
+    | '/app/portfolio'
+    | '/app/risk-assessment'
+    | '/app/settings'
+    | '/auth/demo'
+    | '/auth/forgot-password'
+    | '/auth/login'
+    | '/auth/signup'
+    | '/app/admin/audit'
+    | '/app/admin/risk-rules'
+    | '/app/admin/users'
+    | '/app/applications/$id'
+    | '/app/borrowers/$id'
+    | '/app/reports/$id'
+    | '/app/admin/'
+    | '/app/applications/'
+    | '/app/borrowers/'
+    | '/app/reports/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  AboutRoute: typeof AboutRoute
+  AlternativeDataRoute: typeof AlternativeDataRoute
+  ExplainabilityRoute: typeof ExplainabilityRoute
+  HowItWorksRoute: typeof HowItWorksRoute
+  ProductRoute: typeof ProductRoute
+  AppAnalyticsRoute: typeof AppAnalyticsRoute
+  AppCohortsRoute: typeof AppCohortsRoute
+  AppDashboardRoute: typeof AppDashboardRoute
+  AppModelIntelligenceRoute: typeof AppModelIntelligenceRoute
+  AppPortfolioRoute: typeof AppPortfolioRoute
+  AppRiskAssessmentRoute: typeof AppRiskAssessmentRoute
+  AppSettingsRoute: typeof AppSettingsRoute
+  AuthDemoRoute: typeof AuthDemoRoute
+  AuthForgotPasswordRoute: typeof AuthForgotPasswordRoute
+  AuthLoginRoute: typeof AuthLoginRoute
+  AuthSignupRoute: typeof AuthSignupRoute
+  AppAdminAuditRoute: typeof AppAdminAuditRoute
+  AppAdminRiskRulesRoute: typeof AppAdminRiskRulesRoute
+  AppAdminUsersRoute: typeof AppAdminUsersRoute
+  AppApplicationsIdRoute: typeof AppApplicationsIdRoute
+  AppBorrowersIdRoute: typeof AppBorrowersIdRoute
+  AppReportsIdRoute: typeof AppReportsIdRoute
+  AppAdminIndexRoute: typeof AppAdminIndexRoute
+  AppApplicationsIndexRoute: typeof AppApplicationsIndexRoute
+  AppBorrowersIndexRoute: typeof AppBorrowersIndexRoute
+  AppReportsIndexRoute: typeof AppReportsIndexRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -48,22 +390,220 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/about': {
+      id: '/about'
+      path: '/about'
+      fullPath: '/about'
+      preLoaderRoute: typeof AboutRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/alternative-data': {
+      id: '/alternative-data'
+      path: '/alternative-data'
+      fullPath: '/alternative-data'
+      preLoaderRoute: typeof AlternativeDataRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/explainability': {
+      id: '/explainability'
+      path: '/explainability'
+      fullPath: '/explainability'
+      preLoaderRoute: typeof ExplainabilityRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/how-it-works': {
+      id: '/how-it-works'
+      path: '/how-it-works'
+      fullPath: '/how-it-works'
+      preLoaderRoute: typeof HowItWorksRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/product': {
+      id: '/product'
+      path: '/product'
+      fullPath: '/product'
+      preLoaderRoute: typeof ProductRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/app/analytics': {
+      id: '/app/analytics'
+      path: '/app/analytics'
+      fullPath: '/app/analytics'
+      preLoaderRoute: typeof AppAnalyticsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/app/cohorts': {
+      id: '/app/cohorts'
+      path: '/app/cohorts'
+      fullPath: '/app/cohorts'
+      preLoaderRoute: typeof AppCohortsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/app/dashboard': {
+      id: '/app/dashboard'
+      path: '/app/dashboard'
+      fullPath: '/app/dashboard'
+      preLoaderRoute: typeof AppDashboardRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/app/model-intelligence': {
+      id: '/app/model-intelligence'
+      path: '/app/model-intelligence'
+      fullPath: '/app/model-intelligence'
+      preLoaderRoute: typeof AppModelIntelligenceRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/app/portfolio': {
+      id: '/app/portfolio'
+      path: '/app/portfolio'
+      fullPath: '/app/portfolio'
+      preLoaderRoute: typeof AppPortfolioRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/app/risk-assessment': {
+      id: '/app/risk-assessment'
+      path: '/app/risk-assessment'
+      fullPath: '/app/risk-assessment'
+      preLoaderRoute: typeof AppRiskAssessmentRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/app/settings': {
+      id: '/app/settings'
+      path: '/app/settings'
+      fullPath: '/app/settings'
+      preLoaderRoute: typeof AppSettingsRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/auth/demo': {
+      id: '/auth/demo'
+      path: '/auth/demo'
+      fullPath: '/auth/demo'
+      preLoaderRoute: typeof AuthDemoRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/auth/forgot-password': {
+      id: '/auth/forgot-password'
+      path: '/auth/forgot-password'
+      fullPath: '/auth/forgot-password'
+      preLoaderRoute: typeof AuthForgotPasswordRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/auth/login': {
+      id: '/auth/login'
+      path: '/auth/login'
+      fullPath: '/auth/login'
+      preLoaderRoute: typeof AuthLoginRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/auth/signup': {
+      id: '/auth/signup'
+      path: '/auth/signup'
+      fullPath: '/auth/signup'
+      preLoaderRoute: typeof AuthSignupRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/app/admin/': {
+      id: '/app/admin/'
+      path: '/app/admin'
+      fullPath: '/app/admin/'
+      preLoaderRoute: typeof AppAdminIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/app/admin/audit': {
+      id: '/app/admin/audit'
+      path: '/app/admin/audit'
+      fullPath: '/app/admin/audit'
+      preLoaderRoute: typeof AppAdminAuditRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/app/admin/risk-rules': {
+      id: '/app/admin/risk-rules'
+      path: '/app/admin/risk-rules'
+      fullPath: '/app/admin/risk-rules'
+      preLoaderRoute: typeof AppAdminRiskRulesRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/app/admin/users': {
+      id: '/app/admin/users'
+      path: '/app/admin/users'
+      fullPath: '/app/admin/users'
+      preLoaderRoute: typeof AppAdminUsersRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/app/applications/': {
+      id: '/app/applications/'
+      path: '/app/applications'
+      fullPath: '/app/applications/'
+      preLoaderRoute: typeof AppApplicationsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/app/applications/$id': {
+      id: '/app/applications/$id'
+      path: '/app/applications/$id'
+      fullPath: '/app/applications/$id'
+      preLoaderRoute: typeof AppApplicationsIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/app/borrowers/': {
+      id: '/app/borrowers/'
+      path: '/app/borrowers'
+      fullPath: '/app/borrowers/'
+      preLoaderRoute: typeof AppBorrowersIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/app/borrowers/$id': {
+      id: '/app/borrowers/$id'
+      path: '/app/borrowers/$id'
+      fullPath: '/app/borrowers/$id'
+      preLoaderRoute: typeof AppBorrowersIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/app/reports/': {
+      id: '/app/reports/'
+      path: '/app/reports'
+      fullPath: '/app/reports/'
+      preLoaderRoute: typeof AppReportsIndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/app/reports/$id': {
+      id: '/app/reports/$id'
+      path: '/app/reports/$id'
+      fullPath: '/app/reports/$id'
+      preLoaderRoute: typeof AppReportsIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  AboutRoute: AboutRoute,
+  AlternativeDataRoute: AlternativeDataRoute,
+  ExplainabilityRoute: ExplainabilityRoute,
+  HowItWorksRoute: HowItWorksRoute,
+  ProductRoute: ProductRoute,
+  AppAnalyticsRoute: AppAnalyticsRoute,
+  AppCohortsRoute: AppCohortsRoute,
+  AppDashboardRoute: AppDashboardRoute,
+  AppModelIntelligenceRoute: AppModelIntelligenceRoute,
+  AppPortfolioRoute: AppPortfolioRoute,
+  AppRiskAssessmentRoute: AppRiskAssessmentRoute,
+  AppSettingsRoute: AppSettingsRoute,
+  AuthDemoRoute: AuthDemoRoute,
+  AuthForgotPasswordRoute: AuthForgotPasswordRoute,
+  AuthLoginRoute: AuthLoginRoute,
+  AuthSignupRoute: AuthSignupRoute,
+  AppAdminAuditRoute: AppAdminAuditRoute,
+  AppAdminRiskRulesRoute: AppAdminRiskRulesRoute,
+  AppAdminUsersRoute: AppAdminUsersRoute,
+  AppApplicationsIdRoute: AppApplicationsIdRoute,
+  AppBorrowersIdRoute: AppBorrowersIdRoute,
+  AppReportsIdRoute: AppReportsIdRoute,
+  AppAdminIndexRoute: AppAdminIndexRoute,
+  AppApplicationsIndexRoute: AppApplicationsIndexRoute,
+  AppBorrowersIndexRoute: AppBorrowersIndexRoute,
+  AppReportsIndexRoute: AppReportsIndexRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
   ._addFileTypes<FileRouteTypes>()
-
-import type { getRouter } from './router.tsx'
-import type { startInstance } from './start.ts'
-declare module '@tanstack/react-start' {
-  interface Register {
-    ssr: true
-    router: Awaited<ReturnType<typeof getRouter>>
-    config: Awaited<ReturnType<typeof startInstance.getOptions>>
-  }
-}
