@@ -112,7 +112,7 @@ export function scoreApplicant(input: RiskAssessmentInput): ScoredResult {
   const contributions: FeatureContribution[] = terms
     .map((t) => {
       const contribution = t.weight * t.x;
-      const meta = FEATURE_META[t.key];
+      const meta = FEATURE_META[t.key]!;
       const increases = contribution > 0;
       return {
         feature: t.key,
