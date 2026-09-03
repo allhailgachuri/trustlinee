@@ -1,0 +1,6450 @@
+[
+  {
+    "id": "BW-0001",
+    "name": "Michael Omondi",
+    "segment": "salaried",
+    "age": 45,
+    "county": "Nyeri",
+    "residenceType": "owned",
+    "employmentStatus": "employed",
+    "dependants": 5,
+    "monthlyIncome": 37498,
+    "accountTenureMonths": 54,
+    "activeAccounts": 4,
+    "joinedAt": "2022-03-28T17:52:44.189980",
+    "riskScore": 864,
+    "probabilityOfDefault": 0.0051,
+    "riskBand": "low",
+    "activeLoans": 0,
+    "totalBorrowed": 59997,
+    "outstandingBalance": 0,
+    "lastAssessment": "2026-09-01T17:52:44.190408",
+    "transactions": {
+      "monthlyTransactionCount": 69,
+      "averageTransactionAmount": 1071,
+      "transactionVolatility": 0.21,
+      "averageMonthlyInflow": 37498,
+      "averageMonthlyOutflow": 18749,
+      "averageBalance": 14999,
+      "utilisationRatio": 0.5,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 33643,
+          "outflow": 15966,
+          "count": 71,
+          "volatility": 0.23
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 35396,
+          "outflow": 17623,
+          "count": 56,
+          "volatility": 0.19
+        },
+        {
+          "month": "May 2025",
+          "inflow": 42084,
+          "outflow": 20797,
+          "count": 23,
+          "volatility": 0.21
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 34416,
+          "outflow": 16203,
+          "count": 57,
+          "volatility": 0.22
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 43521,
+          "outflow": 21417,
+          "count": 63,
+          "volatility": 0.19
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 30834,
+          "outflow": 15982,
+          "count": 68,
+          "volatility": 0.18
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 36933,
+          "outflow": 18564,
+          "count": 59,
+          "volatility": 0.23
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 35465,
+          "outflow": 17359,
+          "count": 48,
+          "volatility": 0.21
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 32039,
+          "outflow": 14901,
+          "count": 38,
+          "volatility": 0.2
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 41650,
+          "outflow": 20527,
+          "count": 61,
+          "volatility": 0.23
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 38586,
+          "outflow": 18327,
+          "count": 80,
+          "volatility": 0.2
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 43325,
+          "outflow": 22283,
+          "count": 15,
+          "volatility": 0.24
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.96,
+      "previousLoans": 2,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.96
+    }
+  },
+  {
+    "id": "BW-0002",
+    "name": "Beatrice Kariuki",
+    "segment": "micro_business",
+    "age": 58,
+    "county": "Nyeri",
+    "residenceType": "owned",
+    "employmentStatus": "business_owner",
+    "dependants": 0,
+    "monthlyIncome": 64099,
+    "accountTenureMonths": 20,
+    "activeAccounts": 1,
+    "joinedAt": "2025-01-11T17:52:44.192815",
+    "riskScore": 680,
+    "probabilityOfDefault": 0.1686,
+    "riskBand": "high",
+    "activeLoans": 1,
+    "totalBorrowed": 307675,
+    "outstandingBalance": 38459,
+    "lastAssessment": "2026-08-24T17:52:44.192930",
+    "transactions": {
+      "monthlyTransactionCount": 63,
+      "averageTransactionAmount": 1831,
+      "transactionVolatility": 0.44,
+      "averageMonthlyInflow": 64099,
+      "averageMonthlyOutflow": 46151,
+      "averageBalance": 14358,
+      "utilisationRatio": 0.72,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 39138,
+          "outflow": 27244,
+          "count": 56,
+          "volatility": 0.39
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 88764,
+          "outflow": 61514,
+          "count": 41,
+          "volatility": 0.43
+        },
+        {
+          "month": "May 2025",
+          "inflow": 65475,
+          "outflow": 49265,
+          "count": 55,
+          "volatility": 0.41
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 51723,
+          "outflow": 39906,
+          "count": 37,
+          "volatility": 0.38
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 71604,
+          "outflow": 54313,
+          "count": 73,
+          "volatility": 0.46
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 38403,
+          "outflow": 26972,
+          "count": 49,
+          "volatility": 0.44
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 46938,
+          "outflow": 34267,
+          "count": 55,
+          "volatility": 0.42
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 88747,
+          "outflow": 61867,
+          "count": 61,
+          "volatility": 0.49
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 58503,
+          "outflow": 39306,
+          "count": 43,
+          "volatility": 0.44
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 48088,
+          "outflow": 35480,
+          "count": 33,
+          "volatility": 0.42
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 56762,
+          "outflow": 40546,
+          "count": 40,
+          "volatility": 0.46
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 74661,
+          "outflow": 52662,
+          "count": 41,
+          "volatility": 0.39
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.77,
+      "previousLoans": 6,
+      "daysPastDueMax": 19,
+      "averageDaysPastDue": 7.6,
+      "previousDefaults": 0,
+      "onTimeRate": 0.77
+    }
+  },
+  {
+    "id": "BW-0003",
+    "name": "Grace Maina",
+    "segment": "informal_trader",
+    "age": 44,
+    "county": "Kakamega",
+    "residenceType": "rented",
+    "employmentStatus": "self_employed",
+    "dependants": 3,
+    "monthlyIncome": 37083,
+    "accountTenureMonths": 71,
+    "activeAccounts": 1,
+    "joinedAt": "2020-11-03T17:52:44.193469",
+    "riskScore": 686,
+    "probabilityOfDefault": 0.1524,
+    "riskBand": "high",
+    "activeLoans": 0,
+    "totalBorrowed": 29666,
+    "outstandingBalance": 0,
+    "lastAssessment": "2026-08-25T17:52:44.193494",
+    "transactions": {
+      "monthlyTransactionCount": 76,
+      "averageTransactionAmount": 1060,
+      "transactionVolatility": 0.56,
+      "averageMonthlyInflow": 37083,
+      "averageMonthlyOutflow": 31150,
+      "averageBalance": 4747,
+      "utilisationRatio": 0.84,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 54837,
+          "outflow": 47219,
+          "count": 33,
+          "volatility": 0.56
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 49762,
+          "outflow": 42651,
+          "count": 19,
+          "volatility": 0.59
+        },
+        {
+          "month": "May 2025",
+          "inflow": 27363,
+          "outflow": 23462,
+          "count": 26,
+          "volatility": 0.64
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 49463,
+          "outflow": 40545,
+          "count": 24,
+          "volatility": 0.5
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 45956,
+          "outflow": 38123,
+          "count": 48,
+          "volatility": 0.48
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 31144,
+          "outflow": 26727,
+          "count": 27,
+          "volatility": 0.64
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 46782,
+          "outflow": 40188,
+          "count": 37,
+          "volatility": 0.6
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 40710,
+          "outflow": 35042,
+          "count": 39,
+          "volatility": 0.55
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 17887,
+          "outflow": 14325,
+          "count": 80,
+          "volatility": 0.62
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 20678,
+          "outflow": 17441,
+          "count": 16,
+          "volatility": 0.53
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 54986,
+          "outflow": 48986,
+          "count": 76,
+          "volatility": 0.63
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 20872,
+          "outflow": 18817,
+          "count": 72,
+          "volatility": 0.58
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.78,
+      "previousLoans": 1,
+      "daysPastDueMax": 18,
+      "averageDaysPastDue": 7.2,
+      "previousDefaults": 0,
+      "onTimeRate": 0.78
+    }
+  },
+  {
+    "id": "BW-0004",
+    "name": "Rose Otieno",
+    "segment": "smallholder_farmer",
+    "age": 38,
+    "county": "Kiambu",
+    "residenceType": "family",
+    "employmentStatus": "casual",
+    "dependants": 3,
+    "monthlyIncome": 25660,
+    "accountTenureMonths": 93,
+    "activeAccounts": 3,
+    "joinedAt": "2019-01-13T17:52:44.193897",
+    "riskScore": 728,
+    "probabilityOfDefault": 0.0714,
+    "riskBand": "medium",
+    "activeLoans": 1,
+    "totalBorrowed": 20528,
+    "outstandingBalance": 15396,
+    "lastAssessment": "2026-08-12T17:52:44.193922",
+    "transactions": {
+      "monthlyTransactionCount": 61,
+      "averageTransactionAmount": 733,
+      "transactionVolatility": 0.65,
+      "averageMonthlyInflow": 25660,
+      "averageMonthlyOutflow": 16422,
+      "averageBalance": 7390,
+      "utilisationRatio": 0.64,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 19152,
+          "outflow": 12989,
+          "count": 75,
+          "volatility": 0.6
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 22590,
+          "outflow": 14671,
+          "count": 78,
+          "volatility": 0.64
+        },
+        {
+          "month": "May 2025",
+          "inflow": 39862,
+          "outflow": 26981,
+          "count": 18,
+          "volatility": 0.7
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 15348,
+          "outflow": 10232,
+          "count": 43,
+          "volatility": 0.61
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 17789,
+          "outflow": 11822,
+          "count": 63,
+          "volatility": 0.58
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 28751,
+          "outflow": 18848,
+          "count": 62,
+          "volatility": 0.7
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 39038,
+          "outflow": 24827,
+          "count": 48,
+          "volatility": 0.72
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 10833,
+          "outflow": 7112,
+          "count": 26,
+          "volatility": 0.59
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 9683,
+          "outflow": 6181,
+          "count": 20,
+          "volatility": 0.72
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 21800,
+          "outflow": 13646,
+          "count": 44,
+          "volatility": 0.55
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 13166,
+          "outflow": 9041,
+          "count": 28,
+          "volatility": 0.73
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 15197,
+          "outflow": 10000,
+          "count": 71,
+          "volatility": 0.61
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.74,
+      "previousLoans": 1,
+      "daysPastDueMax": 12,
+      "averageDaysPastDue": 4.8,
+      "previousDefaults": 0,
+      "onTimeRate": 0.74
+    }
+  },
+  {
+    "id": "BW-0005",
+    "name": "Samuel Mutua",
+    "segment": "salaried",
+    "age": 41,
+    "county": "Nyeri",
+    "residenceType": "family",
+    "employmentStatus": "employed",
+    "dependants": 2,
+    "monthlyIncome": 71450,
+    "accountTenureMonths": 68,
+    "activeAccounts": 1,
+    "joinedAt": "2021-02-01T17:52:44.194530",
+    "riskScore": 875,
+    "probabilityOfDefault": 0.0041,
+    "riskBand": "low",
+    "activeLoans": 0,
+    "totalBorrowed": 400120,
+    "outstandingBalance": 0,
+    "lastAssessment": "2026-08-15T17:52:44.194596",
+    "transactions": {
+      "monthlyTransactionCount": 57,
+      "averageTransactionAmount": 2041,
+      "transactionVolatility": 0.21,
+      "averageMonthlyInflow": 71450,
+      "averageMonthlyOutflow": 30009,
+      "averageBalance": 33153,
+      "utilisationRatio": 0.42,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 59485,
+          "outflow": 25964,
+          "count": 27,
+          "volatility": 0.24
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 58283,
+          "outflow": 25129,
+          "count": 49,
+          "volatility": 0.23
+        },
+        {
+          "month": "May 2025",
+          "inflow": 81362,
+          "outflow": 32453,
+          "count": 24,
+          "volatility": 0.21
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 63458,
+          "outflow": 27675,
+          "count": 80,
+          "volatility": 0.23
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 68966,
+          "outflow": 28612,
+          "count": 37,
+          "volatility": 0.24
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 58081,
+          "outflow": 25277,
+          "count": 28,
+          "volatility": 0.18
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 64109,
+          "outflow": 27798,
+          "count": 31,
+          "volatility": 0.21
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 65067,
+          "outflow": 27602,
+          "count": 46,
+          "volatility": 0.21
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 78391,
+          "outflow": 30886,
+          "count": 32,
+          "volatility": 0.18
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 62079,
+          "outflow": 25981,
+          "count": 33,
+          "volatility": 0.21
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 85567,
+          "outflow": 34234,
+          "count": 38,
+          "volatility": 0.19
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 69188,
+          "outflow": 30335,
+          "count": 36,
+          "volatility": 0.2
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.87,
+      "previousLoans": 7,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.87
+    }
+  },
+  {
+    "id": "BW-0006",
+    "name": "Stephen Karanja",
+    "segment": "micro_business",
+    "age": 33,
+    "county": "Kakamega",
+    "residenceType": "rented",
+    "employmentStatus": "business_owner",
+    "dependants": 1,
+    "monthlyIncome": 53636,
+    "accountTenureMonths": 86,
+    "activeAccounts": 3,
+    "joinedAt": "2019-08-11T17:52:44.195313",
+    "riskScore": 771,
+    "probabilityOfDefault": 0.0317,
+    "riskBand": "low",
+    "activeLoans": 1,
+    "totalBorrowed": 257453,
+    "outstandingBalance": 32182,
+    "lastAssessment": "2026-08-24T17:52:44.195339",
+    "transactions": {
+      "monthlyTransactionCount": 81,
+      "averageTransactionAmount": 1532,
+      "transactionVolatility": 0.38,
+      "averageMonthlyInflow": 53636,
+      "averageMonthlyOutflow": 27354,
+      "averageBalance": 21025,
+      "utilisationRatio": 0.51,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 46266,
+          "outflow": 23855,
+          "count": 52,
+          "volatility": 0.43
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 54303,
+          "outflow": 27372,
+          "count": 35,
+          "volatility": 0.4
+        },
+        {
+          "month": "May 2025",
+          "inflow": 39189,
+          "outflow": 21419,
+          "count": 63,
+          "volatility": 0.34
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 51018,
+          "outflow": 27531,
+          "count": 38,
+          "volatility": 0.35
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 51414,
+          "outflow": 27894,
+          "count": 41,
+          "volatility": 0.34
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 36532,
+          "outflow": 19751,
+          "count": 65,
+          "volatility": 0.42
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 33728,
+          "outflow": 16364,
+          "count": 31,
+          "volatility": 0.38
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 63723,
+          "outflow": 30359,
+          "count": 60,
+          "volatility": 0.39
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 61259,
+          "outflow": 29859,
+          "count": 54,
+          "volatility": 0.41
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 40286,
+          "outflow": 19169,
+          "count": 61,
+          "volatility": 0.44
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 53804,
+          "outflow": 28657,
+          "count": 76,
+          "volatility": 0.4
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 42682,
+          "outflow": 21319,
+          "count": 16,
+          "volatility": 0.38
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.73,
+      "previousLoans": 6,
+      "daysPastDueMax": 17,
+      "averageDaysPastDue": 6.8,
+      "previousDefaults": 0,
+      "onTimeRate": 0.73
+    }
+  },
+  {
+    "id": "BW-0007",
+    "name": "Peter Wanjiku",
+    "segment": "informal_trader",
+    "age": 28,
+    "county": "Nyeri",
+    "residenceType": "rented",
+    "employmentStatus": "self_employed",
+    "dependants": 2,
+    "monthlyIncome": 51025,
+    "accountTenureMonths": 29,
+    "activeAccounts": 3,
+    "joinedAt": "2024-04-16T17:52:44.195829",
+    "riskScore": 754,
+    "probabilityOfDefault": 0.0441,
+    "riskBand": "low",
+    "activeLoans": 1,
+    "totalBorrowed": 204100,
+    "outstandingBalance": 30615,
+    "lastAssessment": "2026-09-02T17:52:44.195923",
+    "transactions": {
+      "monthlyTransactionCount": 53,
+      "averageTransactionAmount": 1458,
+      "transactionVolatility": 0.4,
+      "averageMonthlyInflow": 51025,
+      "averageMonthlyOutflow": 36228,
+      "averageBalance": 11838,
+      "utilisationRatio": 0.71,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 62583,
+          "outflow": 44975,
+          "count": 33,
+          "volatility": 0.38
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 55777,
+          "outflow": 42180,
+          "count": 68,
+          "volatility": 0.42
+        },
+        {
+          "month": "May 2025",
+          "inflow": 54929,
+          "outflow": 38257,
+          "count": 58,
+          "volatility": 0.43
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 47595,
+          "outflow": 33836,
+          "count": 43,
+          "volatility": 0.39
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 33122,
+          "outflow": 22841,
+          "count": 40,
+          "volatility": 0.37
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 44117,
+          "outflow": 29776,
+          "count": 54,
+          "volatility": 0.35
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 52603,
+          "outflow": 35399,
+          "count": 17,
+          "volatility": 0.43
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 40461,
+          "outflow": 26719,
+          "count": 15,
+          "volatility": 0.37
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 54290,
+          "outflow": 36132,
+          "count": 58,
+          "volatility": 0.43
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 46978,
+          "outflow": 35333,
+          "count": 64,
+          "volatility": 0.43
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 44312,
+          "outflow": 31062,
+          "count": 28,
+          "volatility": 0.37
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 52953,
+          "outflow": 39133,
+          "count": 24,
+          "volatility": 0.39
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.82,
+      "previousLoans": 5,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.82
+    }
+  },
+  {
+    "id": "BW-0008",
+    "name": "Kelvin Kiplagat",
+    "segment": "smallholder_farmer",
+    "age": 27,
+    "county": "Kiambu",
+    "residenceType": "rented",
+    "employmentStatus": "casual",
+    "dependants": 2,
+    "monthlyIncome": 69757,
+    "accountTenureMonths": 23,
+    "activeAccounts": 2,
+    "joinedAt": "2024-10-13T17:52:44.196532",
+    "riskScore": 674,
+    "probabilityOfDefault": 0.1858,
+    "riskBand": "high",
+    "activeLoans": 2,
+    "totalBorrowed": 279028,
+    "outstandingBalance": 41854,
+    "lastAssessment": "2026-08-30T17:52:44.196571",
+    "transactions": {
+      "monthlyTransactionCount": 71,
+      "averageTransactionAmount": 1993,
+      "transactionVolatility": 0.71,
+      "averageMonthlyInflow": 69757,
+      "averageMonthlyOutflow": 53015,
+      "averageBalance": 13393,
+      "utilisationRatio": 0.76,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 102863,
+          "outflow": 80778,
+          "count": 38,
+          "volatility": 0.68
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 80379,
+          "outflow": 62475,
+          "count": 66,
+          "volatility": 0.61
+        },
+        {
+          "month": "May 2025",
+          "inflow": 36997,
+          "outflow": 28802,
+          "count": 20,
+          "volatility": 0.79
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 40477,
+          "outflow": 29352,
+          "count": 25,
+          "volatility": 0.76
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 35167,
+          "outflow": 25429,
+          "count": 57,
+          "volatility": 0.77
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 105656,
+          "outflow": 83493,
+          "count": 80,
+          "volatility": 0.61
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 35004,
+          "outflow": 27208,
+          "count": 35,
+          "volatility": 0.75
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 45426,
+          "outflow": 34857,
+          "count": 73,
+          "volatility": 0.75
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 38250,
+          "outflow": 29810,
+          "count": 38,
+          "volatility": 0.8
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 89863,
+          "outflow": 63746,
+          "count": 15,
+          "volatility": 0.63
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 40416,
+          "outflow": 29507,
+          "count": 25,
+          "volatility": 0.63
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 82610,
+          "outflow": 63836,
+          "count": 46,
+          "volatility": 0.71
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.77,
+      "previousLoans": 5,
+      "daysPastDueMax": 6,
+      "averageDaysPastDue": 2.4,
+      "previousDefaults": 0,
+      "onTimeRate": 0.77
+    }
+  },
+  {
+    "id": "BW-0009",
+    "name": "Winnie Koech",
+    "segment": "salaried",
+    "age": 27,
+    "county": "Nairobi",
+    "residenceType": "owned",
+    "employmentStatus": "employed",
+    "dependants": 0,
+    "monthlyIncome": 81687,
+    "accountTenureMonths": 62,
+    "activeAccounts": 3,
+    "joinedAt": "2021-07-31T17:52:44.197230",
+    "riskScore": 886,
+    "probabilityOfDefault": 0.0033,
+    "riskBand": "low",
+    "activeLoans": 1,
+    "totalBorrowed": 65350,
+    "outstandingBalance": 49012,
+    "lastAssessment": "2026-08-25T17:52:44.197248",
+    "transactions": {
+      "monthlyTransactionCount": 55,
+      "averageTransactionAmount": 2334,
+      "transactionVolatility": 0.1,
+      "averageMonthlyInflow": 81687,
+      "averageMonthlyOutflow": 44111,
+      "averageBalance": 30061,
+      "utilisationRatio": 0.54,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 83760,
+          "outflow": 47063,
+          "count": 31,
+          "volatility": 0.1
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 75320,
+          "outflow": 40287,
+          "count": 49,
+          "volatility": 0.11
+        },
+        {
+          "month": "May 2025",
+          "inflow": 75354,
+          "outflow": 40623,
+          "count": 34,
+          "volatility": 0.11
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 86803,
+          "outflow": 47421,
+          "count": 45,
+          "volatility": 0.09
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 75937,
+          "outflow": 41782,
+          "count": 69,
+          "volatility": 0.11
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 77622,
+          "outflow": 39003,
+          "count": 44,
+          "volatility": 0.09
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 86309,
+          "outflow": 44388,
+          "count": 76,
+          "volatility": 0.09
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 88076,
+          "outflow": 46058,
+          "count": 73,
+          "volatility": 0.11
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 79313,
+          "outflow": 41243,
+          "count": 46,
+          "volatility": 0.1
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 76892,
+          "outflow": 42678,
+          "count": 17,
+          "volatility": 0.11
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 76464,
+          "outflow": 39630,
+          "count": 67,
+          "volatility": 0.11
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 82108,
+          "outflow": 46204,
+          "count": 79,
+          "volatility": 0.1
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.95,
+      "previousLoans": 1,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.95
+    }
+  },
+  {
+    "id": "BW-0010",
+    "name": "Joseph Kamau",
+    "segment": "micro_business",
+    "age": 34,
+    "county": "Nyeri",
+    "residenceType": "owned",
+    "employmentStatus": "business_owner",
+    "dependants": 5,
+    "monthlyIncome": 53658,
+    "accountTenureMonths": 84,
+    "activeAccounts": 3,
+    "joinedAt": "2019-10-10T17:52:44.197484",
+    "riskScore": 822,
+    "probabilityOfDefault": 0.0116,
+    "riskBand": "low",
+    "activeLoans": 2,
+    "totalBorrowed": 85853,
+    "outstandingBalance": 32195,
+    "lastAssessment": "2026-08-10T17:52:44.197496",
+    "transactions": {
+      "monthlyTransactionCount": 85,
+      "averageTransactionAmount": 1533,
+      "transactionVolatility": 0.31,
+      "averageMonthlyInflow": 53658,
+      "averageMonthlyOutflow": 34878,
+      "averageBalance": 15024,
+      "utilisationRatio": 0.65,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 55310,
+          "outflow": 37628,
+          "count": 32,
+          "volatility": 0.32
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 69564,
+          "outflow": 41852,
+          "count": 78,
+          "volatility": 0.27
+        },
+        {
+          "month": "May 2025",
+          "inflow": 70259,
+          "outflow": 44725,
+          "count": 48,
+          "volatility": 0.34
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 69479,
+          "outflow": 45111,
+          "count": 43,
+          "volatility": 0.31
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 52470,
+          "outflow": 34760,
+          "count": 34,
+          "volatility": 0.28
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 66537,
+          "outflow": 43543,
+          "count": 67,
+          "volatility": 0.32
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 58326,
+          "outflow": 39027,
+          "count": 58,
+          "volatility": 0.33
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 69794,
+          "outflow": 44757,
+          "count": 77,
+          "volatility": 0.33
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 45163,
+          "outflow": 31496,
+          "count": 63,
+          "volatility": 0.31
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 63932,
+          "outflow": 39025,
+          "count": 50,
+          "volatility": 0.3
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 47603,
+          "outflow": 32654,
+          "count": 77,
+          "volatility": 0.33
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 63029,
+          "outflow": 38709,
+          "count": 30,
+          "volatility": 0.29
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.82,
+      "previousLoans": 2,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.82
+    }
+  },
+  {
+    "id": "BW-0011",
+    "name": "Stephen Nyambura",
+    "segment": "informal_trader",
+    "age": 43,
+    "county": "Kajiado",
+    "residenceType": "family",
+    "employmentStatus": "self_employed",
+    "dependants": 1,
+    "monthlyIncome": 45030,
+    "accountTenureMonths": 59,
+    "activeAccounts": 4,
+    "joinedAt": "2021-10-29T17:52:44.197824",
+    "riskScore": 663,
+    "probabilityOfDefault": 0.2206,
+    "riskBand": "high",
+    "activeLoans": 1,
+    "totalBorrowed": 36024,
+    "outstandingBalance": 27018,
+    "lastAssessment": "2026-08-20T17:52:44.197842",
+    "transactions": {
+      "monthlyTransactionCount": 54,
+      "averageTransactionAmount": 1287,
+      "transactionVolatility": 0.43,
+      "averageMonthlyInflow": 45030,
+      "averageMonthlyOutflow": 36474,
+      "averageBalance": 6845,
+      "utilisationRatio": 0.81,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 39853,
+          "outflow": 32607,
+          "count": 34,
+          "volatility": 0.42
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 39879,
+          "outflow": 32697,
+          "count": 65,
+          "volatility": 0.43
+        },
+        {
+          "month": "May 2025",
+          "inflow": 44414,
+          "outflow": 38664,
+          "count": 66,
+          "volatility": 0.38
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 52896,
+          "outflow": 39671,
+          "count": 27,
+          "volatility": 0.39
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 34255,
+          "outflow": 28923,
+          "count": 22,
+          "volatility": 0.37
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 56153,
+          "outflow": 42469,
+          "count": 50,
+          "volatility": 0.49
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 35431,
+          "outflow": 29082,
+          "count": 71,
+          "volatility": 0.37
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 39607,
+          "outflow": 30332,
+          "count": 20,
+          "volatility": 0.43
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 57780,
+          "outflow": 50181,
+          "count": 67,
+          "volatility": 0.43
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 52437,
+          "outflow": 44839,
+          "count": 20,
+          "volatility": 0.46
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 64188,
+          "outflow": 49420,
+          "count": 35,
+          "volatility": 0.44
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 37548,
+          "outflow": 30630,
+          "count": 40,
+          "volatility": 0.47
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.65,
+      "previousLoans": 1,
+      "daysPastDueMax": 21,
+      "averageDaysPastDue": 8.4,
+      "previousDefaults": 0,
+      "onTimeRate": 0.65
+    }
+  },
+  {
+    "id": "BW-0012",
+    "name": "Daniel Karanja",
+    "segment": "smallholder_farmer",
+    "age": 40,
+    "county": "Eldoret (Uasin Gishu)",
+    "residenceType": "rented",
+    "employmentStatus": "casual",
+    "dependants": 5,
+    "monthlyIncome": 15000,
+    "accountTenureMonths": 80,
+    "activeAccounts": 4,
+    "joinedAt": "2020-02-07T17:52:44.198177",
+    "riskScore": 699,
+    "probabilityOfDefault": 0.121,
+    "riskBand": "high",
+    "activeLoans": 0,
+    "totalBorrowed": 48000,
+    "outstandingBalance": 0,
+    "lastAssessment": "2026-08-18T17:52:44.198257",
+    "transactions": {
+      "monthlyTransactionCount": 27,
+      "averageTransactionAmount": 429,
+      "transactionVolatility": 0.6,
+      "averageMonthlyInflow": 15000,
+      "averageMonthlyOutflow": 9000,
+      "averageBalance": 4800,
+      "utilisationRatio": 0.6,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 6953,
+          "outflow": 4253,
+          "count": 72,
+          "volatility": 0.52
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 22466,
+          "outflow": 14129,
+          "count": 72,
+          "volatility": 0.57
+        },
+        {
+          "month": "May 2025",
+          "inflow": 23281,
+          "outflow": 14978,
+          "count": 18,
+          "volatility": 0.56
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 6314,
+          "outflow": 4064,
+          "count": 40,
+          "volatility": 0.55
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 20464,
+          "outflow": 13021,
+          "count": 78,
+          "volatility": 0.62
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 19327,
+          "outflow": 12409,
+          "count": 43,
+          "volatility": 0.6
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 20324,
+          "outflow": 12929,
+          "count": 79,
+          "volatility": 0.57
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 19018,
+          "outflow": 11846,
+          "count": 39,
+          "volatility": 0.63
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 8883,
+          "outflow": 5033,
+          "count": 61,
+          "volatility": 0.69
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 15034,
+          "outflow": 8787,
+          "count": 30,
+          "volatility": 0.53
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 12509,
+          "outflow": 7599,
+          "count": 31,
+          "volatility": 0.55
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 19005,
+          "outflow": 11255,
+          "count": 16,
+          "volatility": 0.63
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.68,
+      "previousLoans": 4,
+      "daysPastDueMax": 18,
+      "averageDaysPastDue": 7.2,
+      "previousDefaults": 0,
+      "onTimeRate": 0.68
+    }
+  },
+  {
+    "id": "BW-0013",
+    "name": "Beatrice Kiplagat",
+    "segment": "salaried",
+    "age": 46,
+    "county": "Nairobi",
+    "residenceType": "owned",
+    "employmentStatus": "employed",
+    "dependants": 4,
+    "monthlyIncome": 67784,
+    "accountTenureMonths": 87,
+    "activeAccounts": 1,
+    "joinedAt": "2019-07-12T17:52:44.199564",
+    "riskScore": 900,
+    "probabilityOfDefault": 0.0023,
+    "riskBand": "low",
+    "activeLoans": 0,
+    "totalBorrowed": 54227,
+    "outstandingBalance": 0,
+    "lastAssessment": "2026-08-12T17:52:44.201776",
+    "transactions": {
+      "monthlyTransactionCount": 57,
+      "averageTransactionAmount": 1937,
+      "transactionVolatility": 0.12,
+      "averageMonthlyInflow": 67784,
+      "averageMonthlyOutflow": 35926,
+      "averageBalance": 25487,
+      "utilisationRatio": 0.53,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 60138,
+          "outflow": 34183,
+          "count": 32,
+          "volatility": 0.13
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 72997,
+          "outflow": 40206,
+          "count": 23,
+          "volatility": 0.11
+        },
+        {
+          "month": "May 2025",
+          "inflow": 75513,
+          "outflow": 42005,
+          "count": 59,
+          "volatility": 0.13
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 66406,
+          "outflow": 36534,
+          "count": 28,
+          "volatility": 0.11
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 71255,
+          "outflow": 36879,
+          "count": 68,
+          "volatility": 0.11
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 63572,
+          "outflow": 35454,
+          "count": 80,
+          "volatility": 0.13
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 67988,
+          "outflow": 34321,
+          "count": 70,
+          "volatility": 0.13
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 75481,
+          "outflow": 40804,
+          "count": 46,
+          "volatility": 0.11
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 65409,
+          "outflow": 36819,
+          "count": 28,
+          "volatility": 0.13
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 63395,
+          "outflow": 31603,
+          "count": 66,
+          "volatility": 0.12
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 65399,
+          "outflow": 36856,
+          "count": 32,
+          "volatility": 0.11
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 68547,
+          "outflow": 36066,
+          "count": 79,
+          "volatility": 0.12
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.95,
+      "previousLoans": 1,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.95
+    }
+  },
+  {
+    "id": "BW-0014",
+    "name": "Francis Koech",
+    "segment": "micro_business",
+    "age": 48,
+    "county": "Kakamega",
+    "residenceType": "family",
+    "employmentStatus": "business_owner",
+    "dependants": 4,
+    "monthlyIncome": 94084,
+    "accountTenureMonths": 19,
+    "activeAccounts": 4,
+    "joinedAt": "2025-02-10T17:52:44.203178",
+    "riskScore": 789,
+    "probabilityOfDefault": 0.0223,
+    "riskBand": "low",
+    "activeLoans": 0,
+    "totalBorrowed": 150534,
+    "outstandingBalance": 0,
+    "lastAssessment": "2026-08-25T17:52:44.203230",
+    "transactions": {
+      "monthlyTransactionCount": 67,
+      "averageTransactionAmount": 2688,
+      "transactionVolatility": 0.31,
+      "averageMonthlyInflow": 94084,
+      "averageMonthlyOutflow": 60214,
+      "averageBalance": 27096,
+      "utilisationRatio": 0.64,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 90233,
+          "outflow": 60835,
+          "count": 45,
+          "volatility": 0.26
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 82054,
+          "outflow": 52815,
+          "count": 43,
+          "volatility": 0.3
+        },
+        {
+          "month": "May 2025",
+          "inflow": 112882,
+          "outflow": 70943,
+          "count": 29,
+          "volatility": 0.29
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 95864,
+          "outflow": 62158,
+          "count": 59,
+          "volatility": 0.33
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 117611,
+          "outflow": 79957,
+          "count": 69,
+          "volatility": 0.33
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 78253,
+          "outflow": 48737,
+          "count": 53,
+          "volatility": 0.33
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 92035,
+          "outflow": 63302,
+          "count": 32,
+          "volatility": 0.27
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 87713,
+          "outflow": 55241,
+          "count": 53,
+          "volatility": 0.28
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 65100,
+          "outflow": 41543,
+          "count": 26,
+          "volatility": 0.35
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 69034,
+          "outflow": 41199,
+          "count": 59,
+          "volatility": 0.29
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 109890,
+          "outflow": 67000,
+          "count": 29,
+          "volatility": 0.33
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 87774,
+          "outflow": 53554,
+          "count": 41,
+          "volatility": 0.33
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.87,
+      "previousLoans": 2,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.87
+    }
+  },
+  {
+    "id": "BW-0015",
+    "name": "Peter Wanjiku",
+    "segment": "informal_trader",
+    "age": 31,
+    "county": "Kisumu",
+    "residenceType": "family",
+    "employmentStatus": "self_employed",
+    "dependants": 2,
+    "monthlyIncome": 15000,
+    "accountTenureMonths": 94,
+    "activeAccounts": 3,
+    "joinedAt": "2018-12-14T17:52:44.203921",
+    "riskScore": 664,
+    "probabilityOfDefault": 0.2173,
+    "riskBand": "high",
+    "activeLoans": 0,
+    "totalBorrowed": 96000,
+    "outstandingBalance": 0,
+    "lastAssessment": "2026-08-23T17:52:44.203946",
+    "transactions": {
+      "monthlyTransactionCount": 30,
+      "averageTransactionAmount": 429,
+      "transactionVolatility": 0.6,
+      "averageMonthlyInflow": 15000,
+      "averageMonthlyOutflow": 12000,
+      "averageBalance": 2400,
+      "utilisationRatio": 0.8,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 15180,
+          "outflow": 12965,
+          "count": 57,
+          "volatility": 0.54
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 6172,
+          "outflow": 4637,
+          "count": 71,
+          "volatility": 0.66
+        },
+        {
+          "month": "May 2025",
+          "inflow": 11099,
+          "outflow": 9175,
+          "count": 70,
+          "volatility": 0.6
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 19168,
+          "outflow": 15003,
+          "count": 49,
+          "volatility": 0.6
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 21143,
+          "outflow": 17752,
+          "count": 46,
+          "volatility": 0.61
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 17944,
+          "outflow": 14769,
+          "count": 66,
+          "volatility": 0.6
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 14842,
+          "outflow": 11428,
+          "count": 37,
+          "volatility": 0.57
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 13769,
+          "outflow": 10374,
+          "count": 24,
+          "volatility": 0.52
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 13788,
+          "outflow": 10246,
+          "count": 48,
+          "volatility": 0.64
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 19871,
+          "outflow": 16080,
+          "count": 21,
+          "volatility": 0.67
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 7592,
+          "outflow": 5864,
+          "count": 29,
+          "volatility": 0.54
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 10238,
+          "outflow": 7819,
+          "count": 78,
+          "volatility": 0.64
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.65,
+      "previousLoans": 8,
+      "daysPastDueMax": 21,
+      "averageDaysPastDue": 8.4,
+      "previousDefaults": 0,
+      "onTimeRate": 0.65
+    }
+  },
+  {
+    "id": "BW-0016",
+    "name": "Daniel Achieng",
+    "segment": "smallholder_farmer",
+    "age": 29,
+    "county": "Machakos",
+    "residenceType": "owned",
+    "employmentStatus": "casual",
+    "dependants": 0,
+    "monthlyIncome": 58321,
+    "accountTenureMonths": 89,
+    "activeAccounts": 1,
+    "joinedAt": "2019-05-13T17:52:44.204594",
+    "riskScore": 443,
+    "probabilityOfDefault": 0.9588,
+    "riskBand": "severe",
+    "activeLoans": 0,
+    "totalBorrowed": 186627,
+    "outstandingBalance": 0,
+    "lastAssessment": "2026-08-16T17:52:44.204644",
+    "transactions": {
+      "monthlyTransactionCount": 44,
+      "averageTransactionAmount": 1666,
+      "transactionVolatility": 0.63,
+      "averageMonthlyInflow": 58321,
+      "averageMonthlyOutflow": 45490,
+      "averageBalance": 10264,
+      "utilisationRatio": 0.78,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 93687,
+          "outflow": 77172,
+          "count": 50,
+          "volatility": 0.66
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 82645,
+          "outflow": 68473,
+          "count": 68,
+          "volatility": 0.6
+        },
+        {
+          "month": "May 2025",
+          "inflow": 54370,
+          "outflow": 42507,
+          "count": 26,
+          "volatility": 0.6
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 51516,
+          "outflow": 39107,
+          "count": 34,
+          "volatility": 0.57
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 59454,
+          "outflow": 46489,
+          "count": 65,
+          "volatility": 0.64
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 89236,
+          "outflow": 67895,
+          "count": 75,
+          "volatility": 0.66
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 61389,
+          "outflow": 50531,
+          "count": 30,
+          "volatility": 0.67
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 92405,
+          "outflow": 67232,
+          "count": 54,
+          "volatility": 0.56
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 40853,
+          "outflow": 32990,
+          "count": 27,
+          "volatility": 0.6
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 78972,
+          "outflow": 64167,
+          "count": 73,
+          "volatility": 0.61
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 56094,
+          "outflow": 41557,
+          "count": 52,
+          "volatility": 0.72
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 29991,
+          "outflow": 23003,
+          "count": 21,
+          "volatility": 0.61
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.56,
+      "previousLoans": 4,
+      "daysPastDueMax": 64,
+      "averageDaysPastDue": 25.6,
+      "previousDefaults": 1,
+      "onTimeRate": 0.56
+    }
+  },
+  {
+    "id": "BW-0017",
+    "name": "Winnie Maina",
+    "segment": "salaried",
+    "age": 25,
+    "county": "Kajiado",
+    "residenceType": "rented",
+    "employmentStatus": "employed",
+    "dependants": 5,
+    "monthlyIncome": 105516,
+    "accountTenureMonths": 16,
+    "activeAccounts": 3,
+    "joinedAt": "2025-05-11T17:52:44.205464",
+    "riskScore": 846,
+    "probabilityOfDefault": 0.0073,
+    "riskBand": "low",
+    "activeLoans": 1,
+    "totalBorrowed": 337651,
+    "outstandingBalance": 63310,
+    "lastAssessment": "2026-08-23T17:52:44.205560",
+    "transactions": {
+      "monthlyTransactionCount": 39,
+      "averageTransactionAmount": 3015,
+      "transactionVolatility": 0.09,
+      "averageMonthlyInflow": 105516,
+      "averageMonthlyOutflow": 62254,
+      "averageBalance": 34609,
+      "utilisationRatio": 0.59,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 101147,
+          "outflow": 60107,
+          "count": 44,
+          "volatility": 0.1
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 102893,
+          "outflow": 58792,
+          "count": 79,
+          "volatility": 0.08
+        },
+        {
+          "month": "May 2025",
+          "inflow": 111223,
+          "outflow": 62409,
+          "count": 17,
+          "volatility": 0.09
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 104896,
+          "outflow": 65303,
+          "count": 49,
+          "volatility": 0.08
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 108830,
+          "outflow": 68852,
+          "count": 45,
+          "volatility": 0.08
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 109640,
+          "outflow": 68927,
+          "count": 74,
+          "volatility": 0.09
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 101364,
+          "outflow": 62960,
+          "count": 72,
+          "volatility": 0.09
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 105035,
+          "outflow": 64118,
+          "count": 59,
+          "volatility": 0.1
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 105236,
+          "outflow": 59124,
+          "count": 66,
+          "volatility": 0.1
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 98196,
+          "outflow": 57665,
+          "count": 58,
+          "volatility": 0.1
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 104657,
+          "outflow": 60135,
+          "count": 44,
+          "volatility": 0.1
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 103771,
+          "outflow": 58524,
+          "count": 26,
+          "volatility": 0.08
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.95,
+      "previousLoans": 4,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.95
+    }
+  },
+  {
+    "id": "BW-0018",
+    "name": "Agnes Koech",
+    "segment": "micro_business",
+    "age": 28,
+    "county": "Kakamega",
+    "residenceType": "family",
+    "employmentStatus": "business_owner",
+    "dependants": 3,
+    "monthlyIncome": 109023,
+    "accountTenureMonths": 53,
+    "activeAccounts": 3,
+    "joinedAt": "2022-04-27T17:52:44.206388",
+    "riskScore": 789,
+    "probabilityOfDefault": 0.0224,
+    "riskBand": "low",
+    "activeLoans": 1,
+    "totalBorrowed": 348874,
+    "outstandingBalance": 65414,
+    "lastAssessment": "2026-08-20T17:52:44.206536",
+    "transactions": {
+      "monthlyTransactionCount": 68,
+      "averageTransactionAmount": 3115,
+      "transactionVolatility": 0.3,
+      "averageMonthlyInflow": 109023,
+      "averageMonthlyOutflow": 54512,
+      "averageBalance": 43609,
+      "utilisationRatio": 0.5,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 128274,
+          "outflow": 62235,
+          "count": 61,
+          "volatility": 0.26
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 109622,
+          "outflow": 56382,
+          "count": 50,
+          "volatility": 0.28
+        },
+        {
+          "month": "May 2025",
+          "inflow": 115829,
+          "outflow": 56401,
+          "count": 15,
+          "volatility": 0.29
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 83049,
+          "outflow": 38872,
+          "count": 44,
+          "volatility": 0.31
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 131226,
+          "outflow": 69724,
+          "count": 19,
+          "volatility": 0.33
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 110465,
+          "outflow": 55753,
+          "count": 52,
+          "volatility": 0.28
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 81493,
+          "outflow": 42658,
+          "count": 69,
+          "volatility": 0.32
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 91848,
+          "outflow": 45113,
+          "count": 16,
+          "volatility": 0.32
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 130699,
+          "outflow": 63831,
+          "count": 79,
+          "volatility": 0.32
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 115362,
+          "outflow": 59334,
+          "count": 78,
+          "volatility": 0.26
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 125854,
+          "outflow": 66243,
+          "count": 70,
+          "volatility": 0.34
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 103512,
+          "outflow": 51476,
+          "count": 39,
+          "volatility": 0.3
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.79,
+      "previousLoans": 4,
+      "daysPastDueMax": 14,
+      "averageDaysPastDue": 5.6,
+      "previousDefaults": 0,
+      "onTimeRate": 0.79
+    }
+  },
+  {
+    "id": "BW-0019",
+    "name": "Joseph Kiplagat",
+    "segment": "informal_trader",
+    "age": 35,
+    "county": "Kisumu",
+    "residenceType": "rented",
+    "employmentStatus": "self_employed",
+    "dependants": 4,
+    "monthlyIncome": 70243,
+    "accountTenureMonths": 77,
+    "activeAccounts": 2,
+    "joinedAt": "2020-05-07T17:52:44.210573",
+    "riskScore": 758,
+    "probabilityOfDefault": 0.0408,
+    "riskBand": "low",
+    "activeLoans": 0,
+    "totalBorrowed": 112389,
+    "outstandingBalance": 0,
+    "lastAssessment": "2026-09-01T17:52:44.210628",
+    "transactions": {
+      "monthlyTransactionCount": 54,
+      "averageTransactionAmount": 2007,
+      "transactionVolatility": 0.52,
+      "averageMonthlyInflow": 70243,
+      "averageMonthlyOutflow": 39336,
+      "averageBalance": 24726,
+      "utilisationRatio": 0.56,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 84001,
+          "outflow": 50053,
+          "count": 46,
+          "volatility": 0.58
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 61773,
+          "outflow": 32278,
+          "count": 68,
+          "volatility": 0.47
+        },
+        {
+          "month": "May 2025",
+          "inflow": 69598,
+          "outflow": 38606,
+          "count": 49,
+          "volatility": 0.58
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 66369,
+          "outflow": 34945,
+          "count": 67,
+          "volatility": 0.53
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 65788,
+          "outflow": 36602,
+          "count": 47,
+          "volatility": 0.58
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 88815,
+          "outflow": 49219,
+          "count": 42,
+          "volatility": 0.46
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 103252,
+          "outflow": 55008,
+          "count": 24,
+          "volatility": 0.45
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 87318,
+          "outflow": 46050,
+          "count": 54,
+          "volatility": 0.51
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 102249,
+          "outflow": 56438,
+          "count": 15,
+          "volatility": 0.48
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 66933,
+          "outflow": 38840,
+          "count": 45,
+          "volatility": 0.51
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 63258,
+          "outflow": 36308,
+          "count": 45,
+          "volatility": 0.5
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 46769,
+          "outflow": 24786,
+          "count": 69,
+          "volatility": 0.51
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.73,
+      "previousLoans": 2,
+      "daysPastDueMax": 10,
+      "averageDaysPastDue": 4.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.73
+    }
+  },
+  {
+    "id": "BW-0020",
+    "name": "Lilian Ochieng",
+    "segment": "smallholder_farmer",
+    "age": 53,
+    "county": "Nairobi",
+    "residenceType": "owned",
+    "employmentStatus": "casual",
+    "dependants": 5,
+    "monthlyIncome": 52869,
+    "accountTenureMonths": 74,
+    "activeAccounts": 2,
+    "joinedAt": "2020-08-05T17:52:44.211335",
+    "riskScore": 474,
+    "probabilityOfDefault": 0.9252,
+    "riskBand": "severe",
+    "activeLoans": 2,
+    "totalBorrowed": 211476,
+    "outstandingBalance": 31721,
+    "lastAssessment": "2026-08-26T17:52:44.211378",
+    "transactions": {
+      "monthlyTransactionCount": 37,
+      "averageTransactionAmount": 1511,
+      "transactionVolatility": 0.46,
+      "averageMonthlyInflow": 52869,
+      "averageMonthlyOutflow": 44939,
+      "averageBalance": 6344,
+      "utilisationRatio": 0.85,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 60420,
+          "outflow": 54132,
+          "count": 44,
+          "volatility": 0.45
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 38488,
+          "outflow": 30340,
+          "count": 48,
+          "volatility": 0.41
+        },
+        {
+          "month": "May 2025",
+          "inflow": 74905,
+          "outflow": 60263,
+          "count": 65,
+          "volatility": 0.45
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 35464,
+          "outflow": 31384,
+          "count": 25,
+          "volatility": 0.45
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 41347,
+          "outflow": 33578,
+          "count": 46,
+          "volatility": 0.4
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 32391,
+          "outflow": 29033,
+          "count": 34,
+          "volatility": 0.45
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 68852,
+          "outflow": 56593,
+          "count": 69,
+          "volatility": 0.4
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 70792,
+          "outflow": 55850,
+          "count": 76,
+          "volatility": 0.46
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 63502,
+          "outflow": 56110,
+          "count": 63,
+          "volatility": 0.42
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 62497,
+          "outflow": 54685,
+          "count": 23,
+          "volatility": 0.42
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 29416,
+          "outflow": 26185,
+          "count": 28,
+          "volatility": 0.5
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 60179,
+          "outflow": 50958,
+          "count": 29,
+          "volatility": 0.41
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.61,
+      "previousLoans": 5,
+      "daysPastDueMax": 56,
+      "averageDaysPastDue": 22.4,
+      "previousDefaults": 1,
+      "onTimeRate": 0.61
+    }
+  },
+  {
+    "id": "BW-0021",
+    "name": "Dennis Omondi",
+    "segment": "salaried",
+    "age": 53,
+    "county": "Machakos",
+    "residenceType": "rented",
+    "employmentStatus": "employed",
+    "dependants": 5,
+    "monthlyIncome": 72659,
+    "accountTenureMonths": 74,
+    "activeAccounts": 2,
+    "joinedAt": "2020-08-05T17:52:44.212361",
+    "riskScore": 884,
+    "probabilityOfDefault": 0.0034,
+    "riskBand": "low",
+    "activeLoans": 1,
+    "totalBorrowed": 406890,
+    "outstandingBalance": 43595,
+    "lastAssessment": "2026-08-30T17:52:44.212403",
+    "transactions": {
+      "monthlyTransactionCount": 49,
+      "averageTransactionAmount": 2076,
+      "transactionVolatility": 0.22,
+      "averageMonthlyInflow": 72659,
+      "averageMonthlyOutflow": 29064,
+      "averageBalance": 34876,
+      "utilisationRatio": 0.4,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 68078,
+          "outflow": 28974,
+          "count": 30,
+          "volatility": 0.25
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 83936,
+          "outflow": 33287,
+          "count": 77,
+          "volatility": 0.25
+        },
+        {
+          "month": "May 2025",
+          "inflow": 87448,
+          "outflow": 35310,
+          "count": 34,
+          "volatility": 0.24
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 60948,
+          "outflow": 22969,
+          "count": 70,
+          "volatility": 0.23
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 87138,
+          "outflow": 35103,
+          "count": 66,
+          "volatility": 0.23
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 74071,
+          "outflow": 31546,
+          "count": 47,
+          "volatility": 0.19
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 82472,
+          "outflow": 31149,
+          "count": 49,
+          "volatility": 0.22
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 69917,
+          "outflow": 28526,
+          "count": 58,
+          "volatility": 0.21
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 57852,
+          "outflow": 22925,
+          "count": 69,
+          "volatility": 0.24
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 70431,
+          "outflow": 29459,
+          "count": 78,
+          "volatility": 0.22
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 69546,
+          "outflow": 26556,
+          "count": 79,
+          "volatility": 0.2
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 57643,
+          "outflow": 23409,
+          "count": 58,
+          "volatility": 0.25
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.88,
+      "previousLoans": 7,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.88
+    }
+  },
+  {
+    "id": "BW-0022",
+    "name": "Paul Muthoni",
+    "segment": "micro_business",
+    "age": 47,
+    "county": "Kajiado",
+    "residenceType": "rented",
+    "employmentStatus": "business_owner",
+    "dependants": 1,
+    "monthlyIncome": 70411,
+    "accountTenureMonths": 21,
+    "activeAccounts": 3,
+    "joinedAt": "2024-12-12T17:52:44.212685",
+    "riskScore": 676,
+    "probabilityOfDefault": 0.1785,
+    "riskBand": "high",
+    "activeLoans": 2,
+    "totalBorrowed": 168986,
+    "outstandingBalance": 42247,
+    "lastAssessment": "2026-08-21T17:52:44.212699",
+    "transactions": {
+      "monthlyTransactionCount": 56,
+      "averageTransactionAmount": 2012,
+      "transactionVolatility": 0.43,
+      "averageMonthlyInflow": 70411,
+      "averageMonthlyOutflow": 47879,
+      "averageBalance": 18025,
+      "utilisationRatio": 0.68,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 44305,
+          "outflow": 30523,
+          "count": 40,
+          "volatility": 0.39
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 91579,
+          "outflow": 63712,
+          "count": 18,
+          "volatility": 0.45
+        },
+        {
+          "month": "May 2025",
+          "inflow": 95272,
+          "outflow": 69269,
+          "count": 46,
+          "volatility": 0.45
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 75341,
+          "outflow": 48314,
+          "count": 42,
+          "volatility": 0.48
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 66058,
+          "outflow": 45262,
+          "count": 75,
+          "volatility": 0.39
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 41289,
+          "outflow": 27453,
+          "count": 25,
+          "volatility": 0.45
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 42112,
+          "outflow": 29983,
+          "count": 59,
+          "volatility": 0.41
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 73552,
+          "outflow": 51538,
+          "count": 30,
+          "volatility": 0.38
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 97770,
+          "outflow": 64854,
+          "count": 57,
+          "volatility": 0.47
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 55424,
+          "outflow": 36506,
+          "count": 45,
+          "volatility": 0.39
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 72871,
+          "outflow": 47458,
+          "count": 26,
+          "volatility": 0.44
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 94298,
+          "outflow": 61293,
+          "count": 78,
+          "volatility": 0.48
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.77,
+      "previousLoans": 3,
+      "daysPastDueMax": 24,
+      "averageDaysPastDue": 9.6,
+      "previousDefaults": 0,
+      "onTimeRate": 0.77
+    }
+  },
+  {
+    "id": "BW-0023",
+    "name": "Paul Mutua",
+    "segment": "informal_trader",
+    "age": 56,
+    "county": "Eldoret (Uasin Gishu)",
+    "residenceType": "rented",
+    "employmentStatus": "self_employed",
+    "dependants": 0,
+    "monthlyIncome": 43736,
+    "accountTenureMonths": 66,
+    "activeAccounts": 2,
+    "joinedAt": "2021-04-02T17:52:44.212989",
+    "riskScore": 731,
+    "probabilityOfDefault": 0.0681,
+    "riskBand": "medium",
+    "activeLoans": 1,
+    "totalBorrowed": 244922,
+    "outstandingBalance": 26242,
+    "lastAssessment": "2026-08-04T17:52:44.213002",
+    "transactions": {
+      "monthlyTransactionCount": 44,
+      "averageTransactionAmount": 1250,
+      "transactionVolatility": 0.59,
+      "averageMonthlyInflow": 43736,
+      "averageMonthlyOutflow": 24492,
+      "averageBalance": 15395,
+      "utilisationRatio": 0.56,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 48563,
+          "outflow": 28816,
+          "count": 66,
+          "volatility": 0.61
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 35048,
+          "outflow": 19374,
+          "count": 55,
+          "volatility": 0.65
+        },
+        {
+          "month": "May 2025",
+          "inflow": 54812,
+          "outflow": 28481,
+          "count": 58,
+          "volatility": 0.56
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 20196,
+          "outflow": 10706,
+          "count": 52,
+          "volatility": 0.54
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 25211,
+          "outflow": 13472,
+          "count": 62,
+          "volatility": 0.51
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 58759,
+          "outflow": 34566,
+          "count": 77,
+          "volatility": 0.53
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 63669,
+          "outflow": 38210,
+          "count": 74,
+          "volatility": 0.56
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 58814,
+          "outflow": 32641,
+          "count": 17,
+          "volatility": 0.53
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 58055,
+          "outflow": 34817,
+          "count": 38,
+          "volatility": 0.63
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 44880,
+          "outflow": 26494,
+          "count": 58,
+          "volatility": 0.55
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 47700,
+          "outflow": 27809,
+          "count": 20,
+          "volatility": 0.55
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 37890,
+          "outflow": 22365,
+          "count": 64,
+          "volatility": 0.67
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.67,
+      "previousLoans": 7,
+      "daysPastDueMax": 6,
+      "averageDaysPastDue": 2.4,
+      "previousDefaults": 0,
+      "onTimeRate": 0.67
+    }
+  },
+  {
+    "id": "BW-0024",
+    "name": "Winnie Kamau",
+    "segment": "smallholder_farmer",
+    "age": 53,
+    "county": "Kakamega",
+    "residenceType": "rented",
+    "employmentStatus": "casual",
+    "dependants": 3,
+    "monthlyIncome": 15000,
+    "accountTenureMonths": 81,
+    "activeAccounts": 1,
+    "joinedAt": "2020-01-08T17:52:44.213272",
+    "riskScore": 442,
+    "probabilityOfDefault": 0.9592,
+    "riskBand": "severe",
+    "activeLoans": 2,
+    "totalBorrowed": 96000,
+    "outstandingBalance": 9000,
+    "lastAssessment": "2026-08-05T17:52:44.213284",
+    "transactions": {
+      "monthlyTransactionCount": 64,
+      "averageTransactionAmount": 429,
+      "transactionVolatility": 0.74,
+      "averageMonthlyInflow": 15000,
+      "averageMonthlyOutflow": 8850,
+      "averageBalance": 4920,
+      "utilisationRatio": 0.59,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 25578,
+          "outflow": 13982,
+          "count": 39,
+          "volatility": 0.82
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 12008,
+          "outflow": 6577,
+          "count": 47,
+          "volatility": 0.64
+        },
+        {
+          "month": "May 2025",
+          "inflow": 17419,
+          "outflow": 10593,
+          "count": 20,
+          "volatility": 0.68
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 7771,
+          "outflow": 4754,
+          "count": 64,
+          "volatility": 0.72
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 23074,
+          "outflow": 14218,
+          "count": 66,
+          "volatility": 0.82
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 10532,
+          "outflow": 6144,
+          "count": 64,
+          "volatility": 0.64
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 5000,
+          "outflow": 3105,
+          "count": 75,
+          "volatility": 0.64
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 20144,
+          "outflow": 11478,
+          "count": 42,
+          "volatility": 0.64
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 9020,
+          "outflow": 5302,
+          "count": 67,
+          "volatility": 0.84
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 18596,
+          "outflow": 10786,
+          "count": 48,
+          "volatility": 0.76
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 19138,
+          "outflow": 10831,
+          "count": 58,
+          "volatility": 0.64
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 18574,
+          "outflow": 10687,
+          "count": 59,
+          "volatility": 0.76
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.63,
+      "previousLoans": 8,
+      "daysPastDueMax": 70,
+      "averageDaysPastDue": 28.0,
+      "previousDefaults": 1,
+      "onTimeRate": 0.63
+    }
+  },
+  {
+    "id": "BW-0025",
+    "name": "Alice Kariuki",
+    "segment": "salaried",
+    "age": 44,
+    "county": "Kakamega",
+    "residenceType": "rented",
+    "employmentStatus": "employed",
+    "dependants": 3,
+    "monthlyIncome": 78426,
+    "accountTenureMonths": 25,
+    "activeAccounts": 4,
+    "joinedAt": "2024-08-14T17:52:44.213547",
+    "riskScore": 859,
+    "probabilityOfDefault": 0.0056,
+    "riskBand": "low",
+    "activeLoans": 0,
+    "totalBorrowed": 439186,
+    "outstandingBalance": 0,
+    "lastAssessment": "2026-09-02T17:52:44.213559",
+    "transactions": {
+      "monthlyTransactionCount": 69,
+      "averageTransactionAmount": 2241,
+      "transactionVolatility": 0.13,
+      "averageMonthlyInflow": 78426,
+      "averageMonthlyOutflow": 28233,
+      "averageBalance": 40154,
+      "utilisationRatio": 0.36,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 79643,
+          "outflow": 28370,
+          "count": 49,
+          "volatility": 0.12
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 68442,
+          "outflow": 24606,
+          "count": 67,
+          "volatility": 0.11
+        },
+        {
+          "month": "May 2025",
+          "inflow": 76569,
+          "outflow": 27019,
+          "count": 60,
+          "volatility": 0.14
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 77104,
+          "outflow": 28319,
+          "count": 68,
+          "volatility": 0.12
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 75945,
+          "outflow": 27237,
+          "count": 70,
+          "volatility": 0.15
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 78347,
+          "outflow": 29337,
+          "count": 64,
+          "volatility": 0.12
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 74416,
+          "outflow": 27246,
+          "count": 51,
+          "volatility": 0.15
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 71235,
+          "outflow": 24278,
+          "count": 18,
+          "volatility": 0.14
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 73263,
+          "outflow": 25349,
+          "count": 49,
+          "volatility": 0.15
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 70849,
+          "outflow": 25234,
+          "count": 19,
+          "volatility": 0.13
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 73286,
+          "outflow": 25425,
+          "count": 40,
+          "volatility": 0.14
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 72244,
+          "outflow": 25774,
+          "count": 24,
+          "volatility": 0.13
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.86,
+      "previousLoans": 7,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.86
+    }
+  },
+  {
+    "id": "BW-0026",
+    "name": "Rose Koech",
+    "segment": "micro_business",
+    "age": 40,
+    "county": "Eldoret (Uasin Gishu)",
+    "residenceType": "family",
+    "employmentStatus": "business_owner",
+    "dependants": 3,
+    "monthlyIncome": 44251,
+    "accountTenureMonths": 34,
+    "activeAccounts": 1,
+    "joinedAt": "2023-11-18T17:52:44.213840",
+    "riskScore": 804,
+    "probabilityOfDefault": 0.0167,
+    "riskBand": "low",
+    "activeLoans": 2,
+    "totalBorrowed": 141603,
+    "outstandingBalance": 26551,
+    "lastAssessment": "2026-08-30T17:52:44.213857",
+    "transactions": {
+      "monthlyTransactionCount": 73,
+      "averageTransactionAmount": 1264,
+      "transactionVolatility": 0.35,
+      "averageMonthlyInflow": 44251,
+      "averageMonthlyOutflow": 23453,
+      "averageBalance": 16638,
+      "utilisationRatio": 0.53,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 47181,
+          "outflow": 24647,
+          "count": 59,
+          "volatility": 0.39
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 53328,
+          "outflow": 27888,
+          "count": 37,
+          "volatility": 0.32
+        },
+        {
+          "month": "May 2025",
+          "inflow": 36169,
+          "outflow": 20044,
+          "count": 29,
+          "volatility": 0.31
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 31571,
+          "outflow": 17624,
+          "count": 52,
+          "volatility": 0.36
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 53590,
+          "outflow": 26496,
+          "count": 18,
+          "volatility": 0.4
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 40680,
+          "outflow": 22182,
+          "count": 28,
+          "volatility": 0.33
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 58067,
+          "outflow": 30243,
+          "count": 45,
+          "volatility": 0.33
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 30149,
+          "outflow": 16509,
+          "count": 53,
+          "volatility": 0.36
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 51364,
+          "outflow": 29151,
+          "count": 72,
+          "volatility": 0.37
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 42680,
+          "outflow": 23863,
+          "count": 68,
+          "volatility": 0.32
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 31185,
+          "outflow": 16192,
+          "count": 70,
+          "volatility": 0.35
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 47532,
+          "outflow": 25397,
+          "count": 80,
+          "volatility": 0.31
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.87,
+      "previousLoans": 4,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.87
+    }
+  },
+  {
+    "id": "BW-0027",
+    "name": "Hellen Maina",
+    "segment": "informal_trader",
+    "age": 38,
+    "county": "Mombasa",
+    "residenceType": "owned",
+    "employmentStatus": "self_employed",
+    "dependants": 2,
+    "monthlyIncome": 45785,
+    "accountTenureMonths": 41,
+    "activeAccounts": 3,
+    "joinedAt": "2023-04-22T17:52:44.214094",
+    "riskScore": 429,
+    "probabilityOfDefault": 0.9686,
+    "riskBand": "severe",
+    "activeLoans": 1,
+    "totalBorrowed": 73256,
+    "outstandingBalance": 27471,
+    "lastAssessment": "2026-09-02T17:52:44.214106",
+    "transactions": {
+      "monthlyTransactionCount": 31,
+      "averageTransactionAmount": 1308,
+      "transactionVolatility": 0.61,
+      "averageMonthlyInflow": 45785,
+      "averageMonthlyOutflow": 26097,
+      "averageBalance": 15750,
+      "utilisationRatio": 0.57,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 38833,
+          "outflow": 23013,
+          "count": 17,
+          "volatility": 0.54
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 54354,
+          "outflow": 30430,
+          "count": 34,
+          "volatility": 0.53
+        },
+        {
+          "month": "May 2025",
+          "inflow": 31231,
+          "outflow": 16559,
+          "count": 37,
+          "volatility": 0.65
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 50383,
+          "outflow": 29137,
+          "count": 51,
+          "volatility": 0.68
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 25457,
+          "outflow": 15527,
+          "count": 57,
+          "volatility": 0.55
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 65731,
+          "outflow": 36576,
+          "count": 50,
+          "volatility": 0.61
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 34179,
+          "outflow": 18989,
+          "count": 70,
+          "volatility": 0.56
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 53503,
+          "outflow": 32076,
+          "count": 46,
+          "volatility": 0.69
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 36628,
+          "outflow": 21830,
+          "count": 45,
+          "volatility": 0.6
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 20863,
+          "outflow": 12226,
+          "count": 35,
+          "volatility": 0.55
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 51832,
+          "outflow": 27711,
+          "count": 57,
+          "volatility": 0.64
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 64520,
+          "outflow": 38985,
+          "count": 17,
+          "volatility": 0.6
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.56,
+      "previousLoans": 2,
+      "daysPastDueMax": 67,
+      "averageDaysPastDue": 26.8,
+      "previousDefaults": 1,
+      "onTimeRate": 0.56
+    }
+  },
+  {
+    "id": "BW-0028",
+    "name": "Peter Kamau",
+    "segment": "smallholder_farmer",
+    "age": 32,
+    "county": "Kisumu",
+    "residenceType": "family",
+    "employmentStatus": "casual",
+    "dependants": 3,
+    "monthlyIncome": 32043,
+    "accountTenureMonths": 79,
+    "activeAccounts": 4,
+    "joinedAt": "2020-03-08T17:52:44.214362",
+    "riskScore": 676,
+    "probabilityOfDefault": 0.1789,
+    "riskBand": "high",
+    "activeLoans": 2,
+    "totalBorrowed": 153806,
+    "outstandingBalance": 19226,
+    "lastAssessment": "2026-08-18T17:52:44.214376",
+    "transactions": {
+      "monthlyTransactionCount": 48,
+      "averageTransactionAmount": 916,
+      "transactionVolatility": 0.67,
+      "averageMonthlyInflow": 32043,
+      "averageMonthlyOutflow": 19546,
+      "averageBalance": 9997,
+      "utilisationRatio": 0.61,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 42886,
+          "outflow": 25321,
+          "count": 60,
+          "volatility": 0.75
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 18325,
+          "outflow": 11515,
+          "count": 76,
+          "volatility": 0.58
+        },
+        {
+          "month": "May 2025",
+          "inflow": 19810,
+          "outflow": 12432,
+          "count": 47,
+          "volatility": 0.62
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 10704,
+          "outflow": 6528,
+          "count": 50,
+          "volatility": 0.6
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 51523,
+          "outflow": 33761,
+          "count": 78,
+          "volatility": 0.59
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 43447,
+          "outflow": 27987,
+          "count": 69,
+          "volatility": 0.7
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 36666,
+          "outflow": 21279,
+          "count": 37,
+          "volatility": 0.63
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 52467,
+          "outflow": 30208,
+          "count": 22,
+          "volatility": 0.58
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 22125,
+          "outflow": 13960,
+          "count": 63,
+          "volatility": 0.72
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 28690,
+          "outflow": 16848,
+          "count": 31,
+          "volatility": 0.7
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 50454,
+          "outflow": 32241,
+          "count": 15,
+          "volatility": 0.76
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 34224,
+          "outflow": 20021,
+          "count": 50,
+          "volatility": 0.59
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.7,
+      "previousLoans": 6,
+      "daysPastDueMax": 25,
+      "averageDaysPastDue": 10.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.7
+    }
+  },
+  {
+    "id": "BW-0029",
+    "name": "Faith Wanjiku",
+    "segment": "salaried",
+    "age": 35,
+    "county": "Eldoret (Uasin Gishu)",
+    "residenceType": "rented",
+    "employmentStatus": "employed",
+    "dependants": 0,
+    "monthlyIncome": 65945,
+    "accountTenureMonths": 59,
+    "activeAccounts": 3,
+    "joinedAt": "2021-10-29T17:52:44.214617",
+    "riskScore": 893,
+    "probabilityOfDefault": 0.0028,
+    "riskBand": "low",
+    "activeLoans": 1,
+    "totalBorrowed": 158268,
+    "outstandingBalance": 39567,
+    "lastAssessment": "2026-08-15T17:52:44.214636",
+    "transactions": {
+      "monthlyTransactionCount": 41,
+      "averageTransactionAmount": 1884,
+      "transactionVolatility": 0.08,
+      "averageMonthlyInflow": 65945,
+      "averageMonthlyOutflow": 34291,
+      "averageBalance": 25323,
+      "utilisationRatio": 0.52,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 64957,
+          "outflow": 31864,
+          "count": 72,
+          "volatility": 0.08
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 63685,
+          "outflow": 32373,
+          "count": 78,
+          "volatility": 0.08
+        },
+        {
+          "month": "May 2025",
+          "inflow": 68375,
+          "outflow": 34143,
+          "count": 17,
+          "volatility": 0.08
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 62933,
+          "outflow": 34802,
+          "count": 31,
+          "volatility": 0.08
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 66518,
+          "outflow": 36075,
+          "count": 59,
+          "volatility": 0.09
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 69143,
+          "outflow": 36106,
+          "count": 64,
+          "volatility": 0.08
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 62803,
+          "outflow": 34436,
+          "count": 31,
+          "volatility": 0.08
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 63372,
+          "outflow": 31839,
+          "count": 26,
+          "volatility": 0.08
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 70351,
+          "outflow": 36342,
+          "count": 18,
+          "volatility": 0.08
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 67089,
+          "outflow": 35475,
+          "count": 77,
+          "volatility": 0.08
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 65232,
+          "outflow": 35928,
+          "count": 63,
+          "volatility": 0.07
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 66850,
+          "outflow": 32166,
+          "count": 61,
+          "volatility": 0.07
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.98,
+      "previousLoans": 3,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.98
+    }
+  },
+  {
+    "id": "BW-0030",
+    "name": "Brian Nyambura",
+    "segment": "micro_business",
+    "age": 28,
+    "county": "Kisumu",
+    "residenceType": "owned",
+    "employmentStatus": "business_owner",
+    "dependants": 1,
+    "monthlyIncome": 55684,
+    "accountTenureMonths": 47,
+    "activeAccounts": 4,
+    "joinedAt": "2022-10-24T17:52:44.214855",
+    "riskScore": 724,
+    "probabilityOfDefault": 0.0778,
+    "riskBand": "medium",
+    "activeLoans": 1,
+    "totalBorrowed": 222736,
+    "outstandingBalance": 33410,
+    "lastAssessment": "2026-08-11T17:52:44.214872",
+    "transactions": {
+      "monthlyTransactionCount": 77,
+      "averageTransactionAmount": 1591,
+      "transactionVolatility": 0.43,
+      "averageMonthlyInflow": 55684,
+      "averageMonthlyOutflow": 30069,
+      "averageBalance": 20492,
+      "utilisationRatio": 0.54,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 52681,
+          "outflow": 29093,
+          "count": 80,
+          "volatility": 0.41
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 43316,
+          "outflow": 22621,
+          "count": 60,
+          "volatility": 0.44
+        },
+        {
+          "month": "May 2025",
+          "inflow": 36449,
+          "outflow": 18250,
+          "count": 77,
+          "volatility": 0.38
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 44633,
+          "outflow": 25439,
+          "count": 32,
+          "volatility": 0.45
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 64196,
+          "outflow": 34113,
+          "count": 53,
+          "volatility": 0.45
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 66734,
+          "outflow": 36614,
+          "count": 21,
+          "volatility": 0.4
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 70100,
+          "outflow": 40318,
+          "count": 48,
+          "volatility": 0.38
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 54859,
+          "outflow": 28333,
+          "count": 65,
+          "volatility": 0.46
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 53274,
+          "outflow": 30607,
+          "count": 34,
+          "volatility": 0.44
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 61075,
+          "outflow": 33620,
+          "count": 29,
+          "volatility": 0.43
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 35669,
+          "outflow": 18515,
+          "count": 30,
+          "volatility": 0.43
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 41872,
+          "outflow": 24061,
+          "count": 79,
+          "volatility": 0.41
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.75,
+      "previousLoans": 5,
+      "daysPastDueMax": 20,
+      "averageDaysPastDue": 8.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.75
+    }
+  },
+  {
+    "id": "BW-0031",
+    "name": "Kelvin Chebet",
+    "segment": "informal_trader",
+    "age": 33,
+    "county": "Kakamega",
+    "residenceType": "owned",
+    "employmentStatus": "self_employed",
+    "dependants": 5,
+    "monthlyIncome": 44372,
+    "accountTenureMonths": 76,
+    "activeAccounts": 4,
+    "joinedAt": "2020-06-06T17:52:44.215132",
+    "riskScore": 776,
+    "probabilityOfDefault": 0.0285,
+    "riskBand": "low",
+    "activeLoans": 1,
+    "totalBorrowed": 177488,
+    "outstandingBalance": 26623,
+    "lastAssessment": "2026-08-21T17:52:44.215145",
+    "transactions": {
+      "monthlyTransactionCount": 32,
+      "averageTransactionAmount": 1268,
+      "transactionVolatility": 0.44,
+      "averageMonthlyInflow": 44372,
+      "averageMonthlyOutflow": 34166,
+      "averageBalance": 8164,
+      "utilisationRatio": 0.77,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 60856,
+          "outflow": 48483,
+          "count": 21,
+          "volatility": 0.38
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 36812,
+          "outflow": 29152,
+          "count": 58,
+          "volatility": 0.47
+        },
+        {
+          "month": "May 2025",
+          "inflow": 40691,
+          "outflow": 31999,
+          "count": 78,
+          "volatility": 0.44
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 32839,
+          "outflow": 24359,
+          "count": 35,
+          "volatility": 0.47
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 29844,
+          "outflow": 22625,
+          "count": 45,
+          "volatility": 0.39
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 60427,
+          "outflow": 43949,
+          "count": 58,
+          "volatility": 0.38
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 45010,
+          "outflow": 32096,
+          "count": 33,
+          "volatility": 0.38
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 42358,
+          "outflow": 31343,
+          "count": 54,
+          "volatility": 0.47
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 30940,
+          "outflow": 22336,
+          "count": 27,
+          "volatility": 0.4
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 35459,
+          "outflow": 28322,
+          "count": 75,
+          "volatility": 0.39
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 43063,
+          "outflow": 33842,
+          "count": 38,
+          "volatility": 0.46
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 59350,
+          "outflow": 48239,
+          "count": 16,
+          "volatility": 0.46
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.82,
+      "previousLoans": 5,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.82
+    }
+  },
+  {
+    "id": "BW-0032",
+    "name": "Purity Cheruiyot",
+    "segment": "smallholder_farmer",
+    "age": 57,
+    "county": "Meru",
+    "residenceType": "owned",
+    "employmentStatus": "casual",
+    "dependants": 1,
+    "monthlyIncome": 37736,
+    "accountTenureMonths": 95,
+    "activeAccounts": 4,
+    "joinedAt": "2018-11-14T17:52:44.215376",
+    "riskScore": 704,
+    "probabilityOfDefault": 0.1109,
+    "riskBand": "medium",
+    "activeLoans": 2,
+    "totalBorrowed": 150944,
+    "outstandingBalance": 22642,
+    "lastAssessment": "2026-08-06T17:52:44.215386",
+    "transactions": {
+      "monthlyTransactionCount": 86,
+      "averageTransactionAmount": 1078,
+      "transactionVolatility": 0.74,
+      "averageMonthlyInflow": 37736,
+      "averageMonthlyOutflow": 31321,
+      "averageBalance": 5132,
+      "utilisationRatio": 0.83,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 19218,
+          "outflow": 15603,
+          "count": 31,
+          "volatility": 0.65
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 22108,
+          "outflow": 18224,
+          "count": 32,
+          "volatility": 0.79
+        },
+        {
+          "month": "May 2025",
+          "inflow": 43544,
+          "outflow": 38148,
+          "count": 24,
+          "volatility": 0.64
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 50676,
+          "outflow": 42073,
+          "count": 65,
+          "volatility": 0.69
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 44544,
+          "outflow": 39537,
+          "count": 77,
+          "volatility": 0.74
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 34556,
+          "outflow": 27420,
+          "count": 49,
+          "volatility": 0.74
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 39953,
+          "outflow": 31763,
+          "count": 52,
+          "volatility": 0.76
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 43522,
+          "outflow": 33845,
+          "count": 56,
+          "volatility": 0.71
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 28234,
+          "outflow": 22966,
+          "count": 41,
+          "volatility": 0.67
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 39323,
+          "outflow": 34108,
+          "count": 67,
+          "volatility": 0.85
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 62418,
+          "outflow": 53238,
+          "count": 28,
+          "volatility": 0.81
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 35512,
+          "outflow": 28701,
+          "count": 35,
+          "volatility": 0.72
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.77,
+      "previousLoans": 5,
+      "daysPastDueMax": 9,
+      "averageDaysPastDue": 3.6,
+      "previousDefaults": 0,
+      "onTimeRate": 0.77
+    }
+  },
+  {
+    "id": "BW-0033",
+    "name": "Lilian Cheruiyot",
+    "segment": "salaried",
+    "age": 56,
+    "county": "Kajiado",
+    "residenceType": "family",
+    "employmentStatus": "employed",
+    "dependants": 4,
+    "monthlyIncome": 51892,
+    "accountTenureMonths": 51,
+    "activeAccounts": 3,
+    "joinedAt": "2022-06-26T17:52:44.215645",
+    "riskScore": 860,
+    "probabilityOfDefault": 0.0055,
+    "riskBand": "low",
+    "activeLoans": 0,
+    "totalBorrowed": 83027,
+    "outstandingBalance": 0,
+    "lastAssessment": "2026-08-26T17:52:44.215656",
+    "transactions": {
+      "monthlyTransactionCount": 59,
+      "averageTransactionAmount": 1483,
+      "transactionVolatility": 0.09,
+      "averageMonthlyInflow": 51892,
+      "averageMonthlyOutflow": 25427,
+      "averageBalance": 21172,
+      "utilisationRatio": 0.49,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 52821,
+          "outflow": 24640,
+          "count": 61,
+          "volatility": 0.08
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 53908,
+          "outflow": 26403,
+          "count": 20,
+          "volatility": 0.1
+        },
+        {
+          "month": "May 2025",
+          "inflow": 48690,
+          "outflow": 23546,
+          "count": 31,
+          "volatility": 0.1
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 52441,
+          "outflow": 25963,
+          "count": 47,
+          "volatility": 0.1
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 49413,
+          "outflow": 25479,
+          "count": 65,
+          "volatility": 0.1
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 51720,
+          "outflow": 26239,
+          "count": 71,
+          "volatility": 0.09
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 55280,
+          "outflow": 27259,
+          "count": 39,
+          "volatility": 0.1
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 51891,
+          "outflow": 24319,
+          "count": 80,
+          "volatility": 0.09
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 56038,
+          "outflow": 26013,
+          "count": 31,
+          "volatility": 0.09
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 47876,
+          "outflow": 24096,
+          "count": 59,
+          "volatility": 0.09
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 47226,
+          "outflow": 24060,
+          "count": 32,
+          "volatility": 0.09
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 52791,
+          "outflow": 25674,
+          "count": 66,
+          "volatility": 0.09
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.86,
+      "previousLoans": 2,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.86
+    }
+  },
+  {
+    "id": "BW-0034",
+    "name": "Michael Ochieng",
+    "segment": "micro_business",
+    "age": 44,
+    "county": "Kilifi",
+    "residenceType": "owned",
+    "employmentStatus": "business_owner",
+    "dependants": 1,
+    "monthlyIncome": 19006,
+    "accountTenureMonths": 60,
+    "activeAccounts": 2,
+    "joinedAt": "2021-09-29T17:52:44.215912",
+    "riskScore": 763,
+    "probabilityOfDefault": 0.0372,
+    "riskBand": "low",
+    "activeLoans": 1,
+    "totalBorrowed": 121638,
+    "outstandingBalance": 11404,
+    "lastAssessment": "2026-08-12T17:52:44.215924",
+    "transactions": {
+      "monthlyTransactionCount": 65,
+      "averageTransactionAmount": 543,
+      "transactionVolatility": 0.42,
+      "averageMonthlyInflow": 19006,
+      "averageMonthlyOutflow": 13874,
+      "averageBalance": 4105,
+      "utilisationRatio": 0.73,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 21596,
+          "outflow": 14755,
+          "count": 46,
+          "volatility": 0.38
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 22922,
+          "outflow": 15891,
+          "count": 39,
+          "volatility": 0.46
+        },
+        {
+          "month": "May 2025",
+          "inflow": 19056,
+          "outflow": 13739,
+          "count": 43,
+          "volatility": 0.46
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 19780,
+          "outflow": 14629,
+          "count": 80,
+          "volatility": 0.39
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 22881,
+          "outflow": 17906,
+          "count": 30,
+          "volatility": 0.45
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 24282,
+          "outflow": 17139,
+          "count": 36,
+          "volatility": 0.37
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 19233,
+          "outflow": 14054,
+          "count": 34,
+          "volatility": 0.4
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 19844,
+          "outflow": 14967,
+          "count": 36,
+          "volatility": 0.47
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 19469,
+          "outflow": 14788,
+          "count": 45,
+          "volatility": 0.39
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 19150,
+          "outflow": 14188,
+          "count": 50,
+          "volatility": 0.41
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 26339,
+          "outflow": 18158,
+          "count": 69,
+          "volatility": 0.39
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 16307,
+          "outflow": 11674,
+          "count": 32,
+          "volatility": 0.46
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.8,
+      "previousLoans": 8,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.8
+    }
+  },
+  {
+    "id": "BW-0035",
+    "name": "Alice Otieno",
+    "segment": "informal_trader",
+    "age": 30,
+    "county": "Eldoret (Uasin Gishu)",
+    "residenceType": "owned",
+    "employmentStatus": "self_employed",
+    "dependants": 2,
+    "monthlyIncome": 71524,
+    "accountTenureMonths": 65,
+    "activeAccounts": 1,
+    "joinedAt": "2021-05-02T17:52:44.216153",
+    "riskScore": 671,
+    "probabilityOfDefault": 0.1956,
+    "riskBand": "high",
+    "activeLoans": 1,
+    "totalBorrowed": 400534,
+    "outstandingBalance": 42914,
+    "lastAssessment": "2026-08-26T17:52:44.216164",
+    "transactions": {
+      "monthlyTransactionCount": 48,
+      "averageTransactionAmount": 2044,
+      "transactionVolatility": 0.58,
+      "averageMonthlyInflow": 71524,
+      "averageMonthlyOutflow": 42914,
+      "averageBalance": 22888,
+      "utilisationRatio": 0.6,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 46108,
+          "outflow": 29511,
+          "count": 19,
+          "volatility": 0.54
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 95933,
+          "outflow": 59613,
+          "count": 57,
+          "volatility": 0.64
+        },
+        {
+          "month": "May 2025",
+          "inflow": 73219,
+          "outflow": 41227,
+          "count": 71,
+          "volatility": 0.58
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 91639,
+          "outflow": 54507,
+          "count": 80,
+          "volatility": 0.62
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 79330,
+          "outflow": 44860,
+          "count": 68,
+          "volatility": 0.52
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 111054,
+          "outflow": 65009,
+          "count": 19,
+          "volatility": 0.54
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 94808,
+          "outflow": 58661,
+          "count": 79,
+          "volatility": 0.54
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 49507,
+          "outflow": 31322,
+          "count": 49,
+          "volatility": 0.63
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 102489,
+          "outflow": 58202,
+          "count": 72,
+          "volatility": 0.66
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 86644,
+          "outflow": 55726,
+          "count": 80,
+          "volatility": 0.54
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 67807,
+          "outflow": 43220,
+          "count": 42,
+          "volatility": 0.66
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 50405,
+          "outflow": 28226,
+          "count": 79,
+          "volatility": 0.52
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.57,
+      "previousLoans": 7,
+      "daysPastDueMax": 20,
+      "averageDaysPastDue": 8.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.57
+    }
+  },
+  {
+    "id": "BW-0036",
+    "name": "Hellen Kariuki",
+    "segment": "smallholder_farmer",
+    "age": 26,
+    "county": "Kajiado",
+    "residenceType": "owned",
+    "employmentStatus": "casual",
+    "dependants": 4,
+    "monthlyIncome": 40567,
+    "accountTenureMonths": 92,
+    "activeAccounts": 2,
+    "joinedAt": "2019-02-12T17:52:44.216421",
+    "riskScore": 719,
+    "probabilityOfDefault": 0.0846,
+    "riskBand": "medium",
+    "activeLoans": 0,
+    "totalBorrowed": 129814,
+    "outstandingBalance": 0,
+    "lastAssessment": "2026-08-26T17:52:44.216478",
+    "transactions": {
+      "monthlyTransactionCount": 47,
+      "averageTransactionAmount": 1159,
+      "transactionVolatility": 0.75,
+      "averageMonthlyInflow": 40567,
+      "averageMonthlyOutflow": 30831,
+      "averageBalance": 7789,
+      "utilisationRatio": 0.76,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 43392,
+          "outflow": 34117,
+          "count": 27,
+          "volatility": 0.75
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 35507,
+          "outflow": 27250,
+          "count": 77,
+          "volatility": 0.73
+        },
+        {
+          "month": "May 2025",
+          "inflow": 59657,
+          "outflow": 47983,
+          "count": 30,
+          "volatility": 0.75
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 12656,
+          "outflow": 9072,
+          "count": 44,
+          "volatility": 0.8
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 65549,
+          "outflow": 47219,
+          "count": 68,
+          "volatility": 0.71
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 54087,
+          "outflow": 38363,
+          "count": 72,
+          "volatility": 0.74
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 11974,
+          "outflow": 8422,
+          "count": 71,
+          "volatility": 0.83
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 32251,
+          "outflow": 24041,
+          "count": 66,
+          "volatility": 0.83
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 55773,
+          "outflow": 42440,
+          "count": 30,
+          "volatility": 0.79
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 61758,
+          "outflow": 48928,
+          "count": 17,
+          "volatility": 0.74
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 64940,
+          "outflow": 46007,
+          "count": 43,
+          "volatility": 0.65
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 34931,
+          "outflow": 27347,
+          "count": 73,
+          "volatility": 0.69
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.79,
+      "previousLoans": 4,
+      "daysPastDueMax": 8,
+      "averageDaysPastDue": 3.2,
+      "previousDefaults": 0,
+      "onTimeRate": 0.79
+    }
+  },
+  {
+    "id": "BW-0037",
+    "name": "Rose Nyambura",
+    "segment": "salaried",
+    "age": 31,
+    "county": "Machakos",
+    "residenceType": "rented",
+    "employmentStatus": "employed",
+    "dependants": 4,
+    "monthlyIncome": 94436,
+    "accountTenureMonths": 51,
+    "activeAccounts": 1,
+    "joinedAt": "2022-06-26T17:52:44.216977",
+    "riskScore": 900,
+    "probabilityOfDefault": 0.0025,
+    "riskBand": "low",
+    "activeLoans": 2,
+    "totalBorrowed": 302195,
+    "outstandingBalance": 56662,
+    "lastAssessment": "2026-08-07T17:52:44.217011",
+    "transactions": {
+      "monthlyTransactionCount": 43,
+      "averageTransactionAmount": 2698,
+      "transactionVolatility": 0.17,
+      "averageMonthlyInflow": 94436,
+      "averageMonthlyOutflow": 33053,
+      "averageBalance": 49107,
+      "utilisationRatio": 0.35,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 96072,
+          "outflow": 35140,
+          "count": 35,
+          "volatility": 0.15
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 80863,
+          "outflow": 30147,
+          "count": 71,
+          "volatility": 0.19
+        },
+        {
+          "month": "May 2025",
+          "inflow": 104108,
+          "outflow": 36464,
+          "count": 70,
+          "volatility": 0.15
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 83807,
+          "outflow": 27342,
+          "count": 17,
+          "volatility": 0.16
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 106686,
+          "outflow": 38211,
+          "count": 31,
+          "volatility": 0.17
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 93315,
+          "outflow": 34616,
+          "count": 70,
+          "volatility": 0.19
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 110232,
+          "outflow": 38504,
+          "count": 37,
+          "volatility": 0.15
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 80333,
+          "outflow": 29702,
+          "count": 31,
+          "volatility": 0.17
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 82512,
+          "outflow": 28722,
+          "count": 63,
+          "volatility": 0.18
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 86433,
+          "outflow": 28291,
+          "count": 80,
+          "volatility": 0.18
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 80431,
+          "outflow": 27851,
+          "count": 20,
+          "volatility": 0.15
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 86914,
+          "outflow": 29406,
+          "count": 65,
+          "volatility": 0.15
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.95,
+      "previousLoans": 4,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.95
+    }
+  },
+  {
+    "id": "BW-0038",
+    "name": "Faith Kiplagat",
+    "segment": "micro_business",
+    "age": 39,
+    "county": "Nyeri",
+    "residenceType": "rented",
+    "employmentStatus": "business_owner",
+    "dependants": 5,
+    "monthlyIncome": 69696,
+    "accountTenureMonths": 56,
+    "activeAccounts": 2,
+    "joinedAt": "2022-01-27T17:52:44.217793",
+    "riskScore": 772,
+    "probabilityOfDefault": 0.0312,
+    "riskBand": "low",
+    "activeLoans": 2,
+    "totalBorrowed": 278784,
+    "outstandingBalance": 41818,
+    "lastAssessment": "2026-08-19T17:52:44.217874",
+    "transactions": {
+      "monthlyTransactionCount": 35,
+      "averageTransactionAmount": 1991,
+      "transactionVolatility": 0.44,
+      "averageMonthlyInflow": 69696,
+      "averageMonthlyOutflow": 39727,
+      "averageBalance": 23975,
+      "utilisationRatio": 0.57,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 68095,
+          "outflow": 36787,
+          "count": 35,
+          "volatility": 0.46
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 59537,
+          "outflow": 34508,
+          "count": 44,
+          "volatility": 0.38
+        },
+        {
+          "month": "May 2025",
+          "inflow": 82121,
+          "outflow": 48896,
+          "count": 73,
+          "volatility": 0.39
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 94121,
+          "outflow": 57105,
+          "count": 57,
+          "volatility": 0.39
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 86016,
+          "outflow": 50394,
+          "count": 17,
+          "volatility": 0.42
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 82417,
+          "outflow": 50399,
+          "count": 80,
+          "volatility": 0.42
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 52917,
+          "outflow": 29640,
+          "count": 32,
+          "volatility": 0.44
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 70074,
+          "outflow": 41563,
+          "count": 57,
+          "volatility": 0.5
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 43830,
+          "outflow": 25722,
+          "count": 63,
+          "volatility": 0.42
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 84507,
+          "outflow": 50482,
+          "count": 30,
+          "volatility": 0.49
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 39459,
+          "outflow": 22689,
+          "count": 76,
+          "volatility": 0.47
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 54955,
+          "outflow": 31588,
+          "count": 16,
+          "volatility": 0.4
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.78,
+      "previousLoans": 5,
+      "daysPastDueMax": 6,
+      "averageDaysPastDue": 2.4,
+      "previousDefaults": 0,
+      "onTimeRate": 0.78
+    }
+  },
+  {
+    "id": "BW-0039",
+    "name": "John Mwangi",
+    "segment": "informal_trader",
+    "age": 24,
+    "county": "Mombasa",
+    "residenceType": "owned",
+    "employmentStatus": "self_employed",
+    "dependants": 3,
+    "monthlyIncome": 15000,
+    "accountTenureMonths": 53,
+    "activeAccounts": 1,
+    "joinedAt": "2022-04-27T17:52:44.218464",
+    "riskScore": 686,
+    "probabilityOfDefault": 0.1525,
+    "riskBand": "high",
+    "activeLoans": 1,
+    "totalBorrowed": 36000,
+    "outstandingBalance": 9000,
+    "lastAssessment": "2026-08-30T17:52:44.218498",
+    "transactions": {
+      "monthlyTransactionCount": 85,
+      "averageTransactionAmount": 429,
+      "transactionVolatility": 0.36,
+      "averageMonthlyInflow": 15000,
+      "averageMonthlyOutflow": 11400,
+      "averageBalance": 2880,
+      "utilisationRatio": 0.76,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 9767,
+          "outflow": 6894,
+          "count": 30,
+          "volatility": 0.34
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 17376,
+          "outflow": 13587,
+          "count": 52,
+          "volatility": 0.32
+        },
+        {
+          "month": "May 2025",
+          "inflow": 20038,
+          "outflow": 15031,
+          "count": 50,
+          "volatility": 0.39
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 15046,
+          "outflow": 11319,
+          "count": 62,
+          "volatility": 0.33
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 17674,
+          "outflow": 14082,
+          "count": 30,
+          "volatility": 0.35
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 16797,
+          "outflow": 12249,
+          "count": 34,
+          "volatility": 0.32
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 15757,
+          "outflow": 12087,
+          "count": 58,
+          "volatility": 0.35
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 16312,
+          "outflow": 13259,
+          "count": 75,
+          "volatility": 0.32
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 20174,
+          "outflow": 14595,
+          "count": 58,
+          "volatility": 0.38
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 19653,
+          "outflow": 15924,
+          "count": 46,
+          "volatility": 0.34
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 14223,
+          "outflow": 11117,
+          "count": 77,
+          "volatility": 0.38
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 11233,
+          "outflow": 8064,
+          "count": 58,
+          "volatility": 0.31
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.59,
+      "previousLoans": 3,
+      "daysPastDueMax": 10,
+      "averageDaysPastDue": 4.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.59
+    }
+  },
+  {
+    "id": "BW-0040",
+    "name": "Mary Karanja",
+    "segment": "smallholder_farmer",
+    "age": 37,
+    "county": "Nairobi",
+    "residenceType": "owned",
+    "employmentStatus": "casual",
+    "dependants": 2,
+    "monthlyIncome": 46894,
+    "accountTenureMonths": 87,
+    "activeAccounts": 3,
+    "joinedAt": "2019-07-12T17:52:44.218906",
+    "riskScore": 752,
+    "probabilityOfDefault": 0.0455,
+    "riskBand": "low",
+    "activeLoans": 2,
+    "totalBorrowed": 37515,
+    "outstandingBalance": 28136,
+    "lastAssessment": "2026-08-19T17:52:44.218925",
+    "transactions": {
+      "monthlyTransactionCount": 67,
+      "averageTransactionAmount": 1340,
+      "transactionVolatility": 0.73,
+      "averageMonthlyInflow": 46894,
+      "averageMonthlyOutflow": 32826,
+      "averageBalance": 11255,
+      "utilisationRatio": 0.7,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 64419,
+          "outflow": 42497,
+          "count": 68,
+          "volatility": 0.66
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 73891,
+          "outflow": 52760,
+          "count": 22,
+          "volatility": 0.79
+        },
+        {
+          "month": "May 2025",
+          "inflow": 56332,
+          "outflow": 37038,
+          "count": 34,
+          "volatility": 0.84
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 39748,
+          "outflow": 29419,
+          "count": 72,
+          "volatility": 0.68
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 38861,
+          "outflow": 29214,
+          "count": 43,
+          "volatility": 0.83
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 77727,
+          "outflow": 52212,
+          "count": 64,
+          "volatility": 0.62
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 41547,
+          "outflow": 29222,
+          "count": 61,
+          "volatility": 0.81
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 76383,
+          "outflow": 52292,
+          "count": 75,
+          "volatility": 0.77
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 18598,
+          "outflow": 13494,
+          "count": 31,
+          "volatility": 0.69
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 53870,
+          "outflow": 37078,
+          "count": 44,
+          "volatility": 0.79
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 38886,
+          "outflow": 26668,
+          "count": 30,
+          "volatility": 0.77
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 35382,
+          "outflow": 25541,
+          "count": 70,
+          "volatility": 0.65
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.8,
+      "previousLoans": 1,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.8
+    }
+  },
+  {
+    "id": "BW-0041",
+    "name": "Francis Omondi",
+    "segment": "salaried",
+    "age": 33,
+    "county": "Kakamega",
+    "residenceType": "family",
+    "employmentStatus": "employed",
+    "dependants": 2,
+    "monthlyIncome": 70922,
+    "accountTenureMonths": 54,
+    "activeAccounts": 4,
+    "joinedAt": "2022-03-28T17:52:44.219203",
+    "riskScore": 873,
+    "probabilityOfDefault": 0.0042,
+    "riskBand": "low",
+    "activeLoans": 1,
+    "totalBorrowed": 283688,
+    "outstandingBalance": 42553,
+    "lastAssessment": "2026-08-18T17:52:44.219217",
+    "transactions": {
+      "monthlyTransactionCount": 87,
+      "averageTransactionAmount": 2026,
+      "transactionVolatility": 0.17,
+      "averageMonthlyInflow": 70922,
+      "averageMonthlyOutflow": 37589,
+      "averageBalance": 26667,
+      "utilisationRatio": 0.53,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 69387,
+          "outflow": 38636,
+          "count": 60,
+          "volatility": 0.2
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 71765,
+          "outflow": 35994,
+          "count": 18,
+          "volatility": 0.16
+        },
+        {
+          "month": "May 2025",
+          "inflow": 72014,
+          "outflow": 35694,
+          "count": 75,
+          "volatility": 0.19
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 79120,
+          "outflow": 44405,
+          "count": 55,
+          "volatility": 0.15
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 81610,
+          "outflow": 45990,
+          "count": 79,
+          "volatility": 0.15
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 63931,
+          "outflow": 32081,
+          "count": 18,
+          "volatility": 0.17
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 79219,
+          "outflow": 41303,
+          "count": 63,
+          "volatility": 0.15
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 71163,
+          "outflow": 38734,
+          "count": 15,
+          "volatility": 0.16
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 67566,
+          "outflow": 37651,
+          "count": 43,
+          "volatility": 0.17
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 77236,
+          "outflow": 39153,
+          "count": 49,
+          "volatility": 0.17
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 64710,
+          "outflow": 34037,
+          "count": 35,
+          "volatility": 0.15
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 73015,
+          "outflow": 40634,
+          "count": 55,
+          "volatility": 0.18
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.97,
+      "previousLoans": 5,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.97
+    }
+  },
+  {
+    "id": "BW-0042",
+    "name": "Samuel Mwangi",
+    "segment": "micro_business",
+    "age": 27,
+    "county": "Eldoret (Uasin Gishu)",
+    "residenceType": "family",
+    "employmentStatus": "business_owner",
+    "dependants": 4,
+    "monthlyIncome": 35068,
+    "accountTenureMonths": 46,
+    "activeAccounts": 1,
+    "joinedAt": "2022-11-23T17:52:44.219632",
+    "riskScore": 734,
+    "probabilityOfDefault": 0.0644,
+    "riskBand": "medium",
+    "activeLoans": 1,
+    "totalBorrowed": 84163,
+    "outstandingBalance": 21041,
+    "lastAssessment": "2026-08-10T17:52:44.219665",
+    "transactions": {
+      "monthlyTransactionCount": 89,
+      "averageTransactionAmount": 1002,
+      "transactionVolatility": 0.32,
+      "averageMonthlyInflow": 35068,
+      "averageMonthlyOutflow": 18586,
+      "averageBalance": 13186,
+      "utilisationRatio": 0.53,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 31130,
+          "outflow": 17140,
+          "count": 61,
+          "volatility": 0.33
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 29336,
+          "outflow": 15774,
+          "count": 58,
+          "volatility": 0.37
+        },
+        {
+          "month": "May 2025",
+          "inflow": 27570,
+          "outflow": 14264,
+          "count": 34,
+          "volatility": 0.3
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 41252,
+          "outflow": 23450,
+          "count": 17,
+          "volatility": 0.28
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 44812,
+          "outflow": 25454,
+          "count": 26,
+          "volatility": 0.33
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 36241,
+          "outflow": 17896,
+          "count": 64,
+          "volatility": 0.29
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 24772,
+          "outflow": 13239,
+          "count": 56,
+          "volatility": 0.36
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 33463,
+          "outflow": 18800,
+          "count": 62,
+          "volatility": 0.36
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 34111,
+          "outflow": 17274,
+          "count": 75,
+          "volatility": 0.35
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 44324,
+          "outflow": 23300,
+          "count": 57,
+          "volatility": 0.33
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 38940,
+          "outflow": 20378,
+          "count": 18,
+          "volatility": 0.29
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 31268,
+          "outflow": 16483,
+          "count": 76,
+          "volatility": 0.34
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.73,
+      "previousLoans": 3,
+      "daysPastDueMax": 19,
+      "averageDaysPastDue": 7.6,
+      "previousDefaults": 0,
+      "onTimeRate": 0.73
+    }
+  },
+  {
+    "id": "BW-0043",
+    "name": "Esther Kamau",
+    "segment": "informal_trader",
+    "age": 25,
+    "county": "Machakos",
+    "residenceType": "owned",
+    "employmentStatus": "self_employed",
+    "dependants": 1,
+    "monthlyIncome": 59464,
+    "accountTenureMonths": 92,
+    "activeAccounts": 1,
+    "joinedAt": "2019-02-12T17:52:44.220006",
+    "riskScore": 731,
+    "probabilityOfDefault": 0.0682,
+    "riskBand": "medium",
+    "activeLoans": 2,
+    "totalBorrowed": 380570,
+    "outstandingBalance": 35678,
+    "lastAssessment": "2026-08-19T17:52:44.220031",
+    "transactions": {
+      "monthlyTransactionCount": 27,
+      "averageTransactionAmount": 1699,
+      "transactionVolatility": 0.49,
+      "averageMonthlyInflow": 59464,
+      "averageMonthlyOutflow": 35084,
+      "averageBalance": 19504,
+      "utilisationRatio": 0.59,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 31115,
+          "outflow": 17836,
+          "count": 17,
+          "volatility": 0.42
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 77687,
+          "outflow": 47958,
+          "count": 43,
+          "volatility": 0.52
+        },
+        {
+          "month": "May 2025",
+          "inflow": 47856,
+          "outflow": 28587,
+          "count": 61,
+          "volatility": 0.46
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 52622,
+          "outflow": 31709,
+          "count": 62,
+          "volatility": 0.43
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 77493,
+          "outflow": 44269,
+          "count": 69,
+          "volatility": 0.51
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 84740,
+          "outflow": 48612,
+          "count": 70,
+          "volatility": 0.43
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 45857,
+          "outflow": 28263,
+          "count": 55,
+          "volatility": 0.47
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 79818,
+          "outflow": 49832,
+          "count": 39,
+          "volatility": 0.54
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 33408,
+          "outflow": 18693,
+          "count": 39,
+          "volatility": 0.52
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 84655,
+          "outflow": 53264,
+          "count": 44,
+          "volatility": 0.48
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 37278,
+          "outflow": 23331,
+          "count": 66,
+          "volatility": 0.51
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 40409,
+          "outflow": 25133,
+          "count": 38,
+          "volatility": 0.47
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.72,
+      "previousLoans": 8,
+      "daysPastDueMax": 23,
+      "averageDaysPastDue": 9.2,
+      "previousDefaults": 0,
+      "onTimeRate": 0.72
+    }
+  },
+  {
+    "id": "BW-0044",
+    "name": "Paul Njoroge",
+    "segment": "smallholder_farmer",
+    "age": 62,
+    "county": "Machakos",
+    "residenceType": "family",
+    "employmentStatus": "casual",
+    "dependants": 1,
+    "monthlyIncome": 38160,
+    "accountTenureMonths": 69,
+    "activeAccounts": 2,
+    "joinedAt": "2021-01-02T17:52:44.220774",
+    "riskScore": 684,
+    "probabilityOfDefault": 0.1569,
+    "riskBand": "high",
+    "activeLoans": 1,
+    "totalBorrowed": 152640,
+    "outstandingBalance": 22896,
+    "lastAssessment": "2026-08-23T17:52:44.220795",
+    "transactions": {
+      "monthlyTransactionCount": 72,
+      "averageTransactionAmount": 1090,
+      "transactionVolatility": 0.54,
+      "averageMonthlyInflow": 38160,
+      "averageMonthlyOutflow": 23659,
+      "averageBalance": 11601,
+      "utilisationRatio": 0.62,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 22955,
+          "outflow": 14036,
+          "count": 22,
+          "volatility": 0.47
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 35885,
+          "outflow": 21457,
+          "count": 42,
+          "volatility": 0.54
+        },
+        {
+          "month": "May 2025",
+          "inflow": 43731,
+          "outflow": 27814,
+          "count": 77,
+          "volatility": 0.51
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 54417,
+          "outflow": 33565,
+          "count": 77,
+          "volatility": 0.59
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 32083,
+          "outflow": 21291,
+          "count": 23,
+          "volatility": 0.54
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 45410,
+          "outflow": 28620,
+          "count": 31,
+          "volatility": 0.52
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 57076,
+          "outflow": 35866,
+          "count": 66,
+          "volatility": 0.51
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 51075,
+          "outflow": 31489,
+          "count": 25,
+          "volatility": 0.54
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 40053,
+          "outflow": 24031,
+          "count": 62,
+          "volatility": 0.62
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 41874,
+          "outflow": 27119,
+          "count": 40,
+          "volatility": 0.6
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 52503,
+          "outflow": 32569,
+          "count": 49,
+          "volatility": 0.58
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 56226,
+          "outflow": 35756,
+          "count": 54,
+          "volatility": 0.55
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.61,
+      "previousLoans": 5,
+      "daysPastDueMax": 18,
+      "averageDaysPastDue": 7.2,
+      "previousDefaults": 0,
+      "onTimeRate": 0.61
+    }
+  },
+  {
+    "id": "BW-0045",
+    "name": "Mary Muthoni",
+    "segment": "salaried",
+    "age": 57,
+    "county": "Kakamega",
+    "residenceType": "owned",
+    "employmentStatus": "employed",
+    "dependants": 4,
+    "monthlyIncome": 61355,
+    "accountTenureMonths": 48,
+    "activeAccounts": 3,
+    "joinedAt": "2022-09-24T17:52:44.221098",
+    "riskScore": 876,
+    "probabilityOfDefault": 0.004,
+    "riskBand": "low",
+    "activeLoans": 0,
+    "totalBorrowed": 98168,
+    "outstandingBalance": 0,
+    "lastAssessment": "2026-08-12T17:52:44.221112",
+    "transactions": {
+      "monthlyTransactionCount": 30,
+      "averageTransactionAmount": 1753,
+      "transactionVolatility": 0.11,
+      "averageMonthlyInflow": 61355,
+      "averageMonthlyOutflow": 31291,
+      "averageBalance": 24051,
+      "utilisationRatio": 0.51,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 66813,
+          "outflow": 34374,
+          "count": 16,
+          "volatility": 0.11
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 64994,
+          "outflow": 34402,
+          "count": 64,
+          "volatility": 0.12
+        },
+        {
+          "month": "May 2025",
+          "inflow": 61366,
+          "outflow": 31654,
+          "count": 45,
+          "volatility": 0.1
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 58015,
+          "outflow": 30437,
+          "count": 65,
+          "volatility": 0.09
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 62889,
+          "outflow": 31089,
+          "count": 44,
+          "volatility": 0.12
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 58509,
+          "outflow": 29807,
+          "count": 68,
+          "volatility": 0.1
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 56509,
+          "outflow": 30543,
+          "count": 30,
+          "volatility": 0.1
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 59638,
+          "outflow": 28855,
+          "count": 58,
+          "volatility": 0.09
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 58178,
+          "outflow": 31328,
+          "count": 51,
+          "volatility": 0.1
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 56521,
+          "outflow": 27169,
+          "count": 19,
+          "volatility": 0.1
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 55341,
+          "outflow": 28199,
+          "count": 67,
+          "volatility": 0.12
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 60998,
+          "outflow": 29213,
+          "count": 64,
+          "volatility": 0.12
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.96,
+      "previousLoans": 2,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.96
+    }
+  },
+  {
+    "id": "BW-0046",
+    "name": "Jane Kipchoge",
+    "segment": "micro_business",
+    "age": 29,
+    "county": "Nakuru",
+    "residenceType": "owned",
+    "employmentStatus": "business_owner",
+    "dependants": 2,
+    "monthlyIncome": 40106,
+    "accountTenureMonths": 66,
+    "activeAccounts": 2,
+    "joinedAt": "2021-04-02T17:52:44.221747",
+    "riskScore": 749,
+    "probabilityOfDefault": 0.0487,
+    "riskBand": "low",
+    "activeLoans": 1,
+    "totalBorrowed": 64170,
+    "outstandingBalance": 24064,
+    "lastAssessment": "2026-09-02T17:52:44.221769",
+    "transactions": {
+      "monthlyTransactionCount": 26,
+      "averageTransactionAmount": 1146,
+      "transactionVolatility": 0.4,
+      "averageMonthlyInflow": 40106,
+      "averageMonthlyOutflow": 24866,
+      "averageBalance": 12192,
+      "utilisationRatio": 0.62,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 40031,
+          "outflow": 24458,
+          "count": 71,
+          "volatility": 0.41
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 46437,
+          "outflow": 27891,
+          "count": 48,
+          "volatility": 0.37
+        },
+        {
+          "month": "May 2025",
+          "inflow": 25286,
+          "outflow": 14844,
+          "count": 25,
+          "volatility": 0.4
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 39878,
+          "outflow": 24115,
+          "count": 67,
+          "volatility": 0.42
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 35505,
+          "outflow": 21856,
+          "count": 52,
+          "volatility": 0.42
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 39517,
+          "outflow": 24957,
+          "count": 57,
+          "volatility": 0.41
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 36704,
+          "outflow": 23532,
+          "count": 37,
+          "volatility": 0.42
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 26579,
+          "outflow": 16133,
+          "count": 30,
+          "volatility": 0.45
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 34127,
+          "outflow": 20406,
+          "count": 53,
+          "volatility": 0.41
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 40331,
+          "outflow": 26820,
+          "count": 48,
+          "volatility": 0.43
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 38254,
+          "outflow": 24259,
+          "count": 16,
+          "volatility": 0.35
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 37313,
+          "outflow": 24203,
+          "count": 65,
+          "volatility": 0.39
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.76,
+      "previousLoans": 2,
+      "daysPastDueMax": 13,
+      "averageDaysPastDue": 5.2,
+      "previousDefaults": 0,
+      "onTimeRate": 0.76
+    }
+  },
+  {
+    "id": "BW-0047",
+    "name": "Kennedy Kariuki",
+    "segment": "informal_trader",
+    "age": 33,
+    "county": "Kajiado",
+    "residenceType": "owned",
+    "employmentStatus": "self_employed",
+    "dependants": 2,
+    "monthlyIncome": 50896,
+    "accountTenureMonths": 38,
+    "activeAccounts": 3,
+    "joinedAt": "2023-07-21T17:52:44.222052",
+    "riskScore": 655,
+    "probabilityOfDefault": 0.2483,
+    "riskBand": "high",
+    "activeLoans": 1,
+    "totalBorrowed": 203584,
+    "outstandingBalance": 30538,
+    "lastAssessment": "2026-08-11T17:52:44.222064",
+    "transactions": {
+      "monthlyTransactionCount": 52,
+      "averageTransactionAmount": 1454,
+      "transactionVolatility": 0.64,
+      "averageMonthlyInflow": 50896,
+      "averageMonthlyOutflow": 36136,
+      "averageBalance": 11808,
+      "utilisationRatio": 0.71,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 58087,
+          "outflow": 38159,
+          "count": 35,
+          "volatility": 0.62
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 22571,
+          "outflow": 16865,
+          "count": 19,
+          "volatility": 0.58
+        },
+        {
+          "month": "May 2025",
+          "inflow": 71492,
+          "outflow": 47492,
+          "count": 75,
+          "volatility": 0.65
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 66166,
+          "outflow": 43513,
+          "count": 33,
+          "volatility": 0.72
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 26519,
+          "outflow": 18802,
+          "count": 67,
+          "volatility": 0.67
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 39949,
+          "outflow": 30115,
+          "count": 67,
+          "volatility": 0.72
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 72751,
+          "outflow": 55121,
+          "count": 30,
+          "volatility": 0.56
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 49570,
+          "outflow": 35892,
+          "count": 40,
+          "volatility": 0.59
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 55983,
+          "outflow": 41556,
+          "count": 79,
+          "volatility": 0.58
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 36690,
+          "outflow": 26273,
+          "count": 66,
+          "volatility": 0.58
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 73688,
+          "outflow": 55158,
+          "count": 76,
+          "volatility": 0.61
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 24654,
+          "outflow": 17806,
+          "count": 23,
+          "volatility": 0.6
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.57,
+      "previousLoans": 5,
+      "daysPastDueMax": 6,
+      "averageDaysPastDue": 2.4,
+      "previousDefaults": 0,
+      "onTimeRate": 0.57
+    }
+  },
+  {
+    "id": "BW-0048",
+    "name": "Beatrice Ndung'u",
+    "segment": "smallholder_farmer",
+    "age": 26,
+    "county": "Kakamega",
+    "residenceType": "rented",
+    "employmentStatus": "casual",
+    "dependants": 4,
+    "monthlyIncome": 31551,
+    "accountTenureMonths": 56,
+    "activeAccounts": 4,
+    "joinedAt": "2022-01-27T17:52:44.222308",
+    "riskScore": 499,
+    "probabilityOfDefault": 0.8823,
+    "riskBand": "severe",
+    "activeLoans": 2,
+    "totalBorrowed": 75722,
+    "outstandingBalance": 18931,
+    "lastAssessment": "2026-08-05T17:52:44.222320",
+    "transactions": {
+      "monthlyTransactionCount": 65,
+      "averageTransactionAmount": 901,
+      "transactionVolatility": 0.7,
+      "averageMonthlyInflow": 31551,
+      "averageMonthlyOutflow": 17984,
+      "averageBalance": 10854,
+      "utilisationRatio": 0.57,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 18921,
+          "outflow": 10566,
+          "count": 55,
+          "volatility": 0.75
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 23731,
+          "outflow": 14395,
+          "count": 25,
+          "volatility": 0.7
+        },
+        {
+          "month": "May 2025",
+          "inflow": 35647,
+          "outflow": 19243,
+          "count": 39,
+          "volatility": 0.72
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 13132,
+          "outflow": 7304,
+          "count": 68,
+          "volatility": 0.79
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 26797,
+          "outflow": 15230,
+          "count": 64,
+          "volatility": 0.69
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 10398,
+          "outflow": 5713,
+          "count": 21,
+          "volatility": 0.77
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 19814,
+          "outflow": 12097,
+          "count": 59,
+          "volatility": 0.68
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 9614,
+          "outflow": 5788,
+          "count": 66,
+          "volatility": 0.79
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 48263,
+          "outflow": 28845,
+          "count": 72,
+          "volatility": 0.75
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 24473,
+          "outflow": 14834,
+          "count": 54,
+          "volatility": 0.75
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 21649,
+          "outflow": 13052,
+          "count": 49,
+          "volatility": 0.69
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 22233,
+          "outflow": 12311,
+          "count": 79,
+          "volatility": 0.61
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.52,
+      "previousLoans": 3,
+      "daysPastDueMax": 36,
+      "averageDaysPastDue": 14.4,
+      "previousDefaults": 1,
+      "onTimeRate": 0.52
+    }
+  },
+  {
+    "id": "BW-0049",
+    "name": "Joyce Wambui",
+    "segment": "salaried",
+    "age": 36,
+    "county": "Nyeri",
+    "residenceType": "family",
+    "employmentStatus": "employed",
+    "dependants": 0,
+    "monthlyIncome": 158980,
+    "accountTenureMonths": 13,
+    "activeAccounts": 2,
+    "joinedAt": "2025-08-09T17:52:44.222561",
+    "riskScore": 871,
+    "probabilityOfDefault": 0.0044,
+    "riskBand": "low",
+    "activeLoans": 0,
+    "totalBorrowed": 254368,
+    "outstandingBalance": 0,
+    "lastAssessment": "2026-08-11T17:52:44.222573",
+    "transactions": {
+      "monthlyTransactionCount": 76,
+      "averageTransactionAmount": 4542,
+      "transactionVolatility": 0.15,
+      "averageMonthlyInflow": 158980,
+      "averageMonthlyOutflow": 73131,
+      "averageBalance": 68679,
+      "utilisationRatio": 0.46,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 139583,
+          "outflow": 62102,
+          "count": 70,
+          "volatility": 0.17
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 144318,
+          "outflow": 61959,
+          "count": 69,
+          "volatility": 0.15
+        },
+        {
+          "month": "May 2025",
+          "inflow": 166985,
+          "outflow": 73746,
+          "count": 34,
+          "volatility": 0.17
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 178649,
+          "outflow": 76950,
+          "count": 51,
+          "volatility": 0.13
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 167334,
+          "outflow": 81405,
+          "count": 67,
+          "volatility": 0.14
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 142050,
+          "outflow": 69621,
+          "count": 48,
+          "volatility": 0.13
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 172584,
+          "outflow": 77435,
+          "count": 55,
+          "volatility": 0.13
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 154435,
+          "outflow": 74443,
+          "count": 46,
+          "volatility": 0.13
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 136776,
+          "outflow": 64886,
+          "count": 67,
+          "volatility": 0.15
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 176500,
+          "outflow": 80816,
+          "count": 23,
+          "volatility": 0.15
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 141553,
+          "outflow": 69547,
+          "count": 19,
+          "volatility": 0.13
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 143422,
+          "outflow": 64953,
+          "count": 23,
+          "volatility": 0.14
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.97,
+      "previousLoans": 2,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.97
+    }
+  },
+  {
+    "id": "BW-0050",
+    "name": "Kennedy Kamau",
+    "segment": "micro_business",
+    "age": 38,
+    "county": "Nyeri",
+    "residenceType": "owned",
+    "employmentStatus": "business_owner",
+    "dependants": 3,
+    "monthlyIncome": 15000,
+    "accountTenureMonths": 59,
+    "activeAccounts": 3,
+    "joinedAt": "2021-10-29T17:52:44.222802",
+    "riskScore": 790,
+    "probabilityOfDefault": 0.0219,
+    "riskBand": "low",
+    "activeLoans": 2,
+    "totalBorrowed": 72000,
+    "outstandingBalance": 9000,
+    "lastAssessment": "2026-08-09T17:52:44.222815",
+    "transactions": {
+      "monthlyTransactionCount": 33,
+      "averageTransactionAmount": 429,
+      "transactionVolatility": 0.37,
+      "averageMonthlyInflow": 15000,
+      "averageMonthlyOutflow": 9750,
+      "averageBalance": 4200,
+      "utilisationRatio": 0.65,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 16683,
+          "outflow": 11392,
+          "count": 45,
+          "volatility": 0.33
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 11243,
+          "outflow": 7725,
+          "count": 30,
+          "volatility": 0.39
+        },
+        {
+          "month": "May 2025",
+          "inflow": 18580,
+          "outflow": 11431,
+          "count": 48,
+          "volatility": 0.4
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 10274,
+          "outflow": 7072,
+          "count": 39,
+          "volatility": 0.33
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 11710,
+          "outflow": 7206,
+          "count": 38,
+          "volatility": 0.41
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 11315,
+          "outflow": 7623,
+          "count": 63,
+          "volatility": 0.34
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 17395,
+          "outflow": 11583,
+          "count": 23,
+          "volatility": 0.32
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 18948,
+          "outflow": 11621,
+          "count": 22,
+          "volatility": 0.33
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 11495,
+          "outflow": 7797,
+          "count": 40,
+          "volatility": 0.42
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 13456,
+          "outflow": 8494,
+          "count": 32,
+          "volatility": 0.41
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 16996,
+          "outflow": 10388,
+          "count": 15,
+          "volatility": 0.41
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 11448,
+          "outflow": 7955,
+          "count": 69,
+          "volatility": 0.38
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.84,
+      "previousLoans": 6,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.84
+    }
+  },
+  {
+    "id": "BW-0051",
+    "name": "Agnes Koech",
+    "segment": "informal_trader",
+    "age": 38,
+    "county": "Kiambu",
+    "residenceType": "family",
+    "employmentStatus": "self_employed",
+    "dependants": 2,
+    "monthlyIncome": 35792,
+    "accountTenureMonths": 68,
+    "activeAccounts": 4,
+    "joinedAt": "2021-02-01T17:52:44.223068",
+    "riskScore": 755,
+    "probabilityOfDefault": 0.0435,
+    "riskBand": "low",
+    "activeLoans": 2,
+    "totalBorrowed": 114534,
+    "outstandingBalance": 21475,
+    "lastAssessment": "2026-08-16T17:52:44.223082",
+    "transactions": {
+      "monthlyTransactionCount": 49,
+      "averageTransactionAmount": 1023,
+      "transactionVolatility": 0.52,
+      "averageMonthlyInflow": 35792,
+      "averageMonthlyOutflow": 27560,
+      "averageBalance": 6586,
+      "utilisationRatio": 0.77,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 26753,
+          "outflow": 19198,
+          "count": 20,
+          "volatility": 0.58
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 44163,
+          "outflow": 31947,
+          "count": 50,
+          "volatility": 0.51
+        },
+        {
+          "month": "May 2025",
+          "inflow": 25523,
+          "outflow": 19784,
+          "count": 63,
+          "volatility": 0.5
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 52525,
+          "outflow": 38760,
+          "count": 65,
+          "volatility": 0.47
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 38268,
+          "outflow": 28278,
+          "count": 80,
+          "volatility": 0.56
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 38197,
+          "outflow": 27363,
+          "count": 54,
+          "volatility": 0.49
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 43044,
+          "outflow": 33474,
+          "count": 33,
+          "volatility": 0.47
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 29336,
+          "outflow": 22093,
+          "count": 40,
+          "volatility": 0.45
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 36318,
+          "outflow": 29453,
+          "count": 23,
+          "volatility": 0.54
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 24424,
+          "outflow": 18915,
+          "count": 45,
+          "volatility": 0.48
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 36561,
+          "outflow": 30247,
+          "count": 27,
+          "volatility": 0.46
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 50275,
+          "outflow": 36222,
+          "count": 64,
+          "volatility": 0.45
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.81,
+      "previousLoans": 4,
+      "daysPastDueMax": 0,
+      "averageDaysPastDue": 0.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.81
+    }
+  },
+  {
+    "id": "BW-0052",
+    "name": "Alice Chebet",
+    "segment": "smallholder_farmer",
+    "age": 37,
+    "county": "Nairobi",
+    "residenceType": "family",
+    "employmentStatus": "casual",
+    "dependants": 1,
+    "monthlyIncome": 15000,
+    "accountTenureMonths": 18,
+    "activeAccounts": 2,
+    "joinedAt": "2025-03-12T17:52:44.223348",
+    "riskScore": 655,
+    "probabilityOfDefault": 0.2514,
+    "riskBand": "severe",
+    "activeLoans": 0,
+    "totalBorrowed": 36000,
+    "outstandingBalance": 0,
+    "lastAssessment": "2026-08-20T17:52:44.223361",
+    "transactions": {
+      "monthlyTransactionCount": 29,
+      "averageTransactionAmount": 429,
+      "transactionVolatility": 0.58,
+      "averageMonthlyInflow": 15000,
+      "averageMonthlyOutflow": 11250,
+      "averageBalance": 3000,
+      "utilisationRatio": 0.75,
+      "monthly": [
+        {
+          "month": "Mar 2025",
+          "inflow": 16752,
+          "outflow": 13428,
+          "count": 61,
+          "volatility": 0.65
+        },
+        {
+          "month": "Apr 2025",
+          "inflow": 19112,
+          "outflow": 14467,
+          "count": 60,
+          "volatility": 0.61
+        },
+        {
+          "month": "May 2025",
+          "inflow": 15556,
+          "outflow": 10980,
+          "count": 40,
+          "volatility": 0.63
+        },
+        {
+          "month": "Jun 2025",
+          "inflow": 7364,
+          "outflow": 5303,
+          "count": 50,
+          "volatility": 0.62
+        },
+        {
+          "month": "Jul 2025",
+          "inflow": 19986,
+          "outflow": 15784,
+          "count": 35,
+          "volatility": 0.63
+        },
+        {
+          "month": "Aug 2025",
+          "inflow": 11148,
+          "outflow": 8851,
+          "count": 57,
+          "volatility": 0.63
+        },
+        {
+          "month": "Sep 2025",
+          "inflow": 12408,
+          "outflow": 8958,
+          "count": 69,
+          "volatility": 0.57
+        },
+        {
+          "month": "Oct 2025",
+          "inflow": 21168,
+          "outflow": 16268,
+          "count": 70,
+          "volatility": 0.56
+        },
+        {
+          "month": "Nov 2025",
+          "inflow": 17270,
+          "outflow": 12909,
+          "count": 25,
+          "volatility": 0.61
+        },
+        {
+          "month": "Dec 2025",
+          "inflow": 23273,
+          "outflow": 18026,
+          "count": 71,
+          "volatility": 0.66
+        },
+        {
+          "month": "Jan 2026",
+          "inflow": 17771,
+          "outflow": 14001,
+          "count": 79,
+          "volatility": 0.62
+        },
+        {
+          "month": "Feb 2026",
+          "inflow": 9744,
+          "outflow": 6937,
+          "count": 61,
+          "volatility": 0.62
+        }
+      ]
+    },
+    "repayment": {
+      "repaymentConsistency": 0.77,
+      "previousLoans": 3,
+      "daysPastDueMax": 15,
+      "averageDaysPastDue": 6.0,
+      "previousDefaults": 0,
+      "onTimeRate": 0.77
+    }
+  }
+]

@@ -1,0 +1,53 @@
+id,name,segment,age,county,monthlyIncome,utilisationRatio,transactionVolatility,repaymentConsistency,daysPastDueMax,previousDefaults,accountTenureMonths,probabilityOfDefault,riskScore,riskBand
+BW-0001,"Michael Omondi",salaried,45,"Nyeri",37498,0.5,0.21,0.96,0,0,54,0.0051,864,low
+BW-0002,"Beatrice Kariuki",micro_business,58,"Nyeri",64099,0.72,0.44,0.77,19,0,20,0.1686,680,high
+BW-0003,"Grace Maina",informal_trader,44,"Kakamega",37083,0.84,0.56,0.78,18,0,71,0.1524,686,high
+BW-0004,"Rose Otieno",smallholder_farmer,38,"Kiambu",25660,0.64,0.65,0.74,12,0,93,0.0714,728,medium
+BW-0005,"Samuel Mutua",salaried,41,"Nyeri",71450,0.42,0.21,0.87,0,0,68,0.0041,875,low
+BW-0006,"Stephen Karanja",micro_business,33,"Kakamega",53636,0.51,0.38,0.73,17,0,86,0.0317,771,low
+BW-0007,"Peter Wanjiku",informal_trader,28,"Nyeri",51025,0.71,0.4,0.82,0,0,29,0.0441,754,low
+BW-0008,"Kelvin Kiplagat",smallholder_farmer,27,"Kiambu",69757,0.76,0.71,0.77,6,0,23,0.1858,674,high
+BW-0009,"Winnie Koech",salaried,27,"Nairobi",81687,0.54,0.1,0.95,0,0,62,0.0033,886,low
+BW-0010,"Joseph Kamau",micro_business,34,"Nyeri",53658,0.65,0.31,0.82,0,0,84,0.0116,822,low
+BW-0011,"Stephen Nyambura",informal_trader,43,"Kajiado",45030,0.81,0.43,0.65,21,0,59,0.2206,663,high
+BW-0012,"Daniel Karanja",smallholder_farmer,40,"Eldoret (Uasin Gishu)",15000,0.6,0.6,0.68,18,0,80,0.121,699,high
+BW-0013,"Beatrice Kiplagat",salaried,46,"Nairobi",67784,0.53,0.12,0.95,0,0,87,0.0023,900,low
+BW-0014,"Francis Koech",micro_business,48,"Kakamega",94084,0.64,0.31,0.87,0,0,19,0.0223,789,low
+BW-0015,"Peter Wanjiku",informal_trader,31,"Kisumu",15000,0.8,0.6,0.65,21,0,94,0.2173,664,high
+BW-0016,"Daniel Achieng",smallholder_farmer,29,"Machakos",58321,0.78,0.63,0.56,64,1,89,0.9588,443,severe
+BW-0017,"Winnie Maina",salaried,25,"Kajiado",105516,0.59,0.09,0.95,0,0,16,0.0073,846,low
+BW-0018,"Agnes Koech",micro_business,28,"Kakamega",109023,0.5,0.3,0.79,14,0,53,0.0224,789,low
+BW-0019,"Joseph Kiplagat",informal_trader,35,"Kisumu",70243,0.56,0.52,0.73,10,0,77,0.0408,758,low
+BW-0020,"Lilian Ochieng",smallholder_farmer,53,"Nairobi",52869,0.85,0.46,0.61,56,1,74,0.9252,474,severe
+BW-0021,"Dennis Omondi",salaried,53,"Machakos",72659,0.4,0.22,0.88,0,0,74,0.0034,884,low
+BW-0022,"Paul Muthoni",micro_business,47,"Kajiado",70411,0.68,0.43,0.77,24,0,21,0.1785,676,high
+BW-0023,"Paul Mutua",informal_trader,56,"Eldoret (Uasin Gishu)",43736,0.56,0.59,0.67,6,0,66,0.0681,731,medium
+BW-0024,"Winnie Kamau",smallholder_farmer,53,"Kakamega",15000,0.59,0.74,0.63,70,1,81,0.9592,442,severe
+BW-0025,"Alice Kariuki",salaried,44,"Kakamega",78426,0.36,0.13,0.86,0,0,25,0.0056,859,low
+BW-0026,"Rose Koech",micro_business,40,"Eldoret (Uasin Gishu)",44251,0.53,0.35,0.87,0,0,34,0.0167,804,low
+BW-0027,"Hellen Maina",informal_trader,38,"Mombasa",45785,0.57,0.61,0.56,67,1,41,0.9686,429,severe
+BW-0028,"Peter Kamau",smallholder_farmer,32,"Kisumu",32043,0.61,0.67,0.7,25,0,79,0.1789,676,high
+BW-0029,"Faith Wanjiku",salaried,35,"Eldoret (Uasin Gishu)",65945,0.52,0.08,0.98,0,0,59,0.0028,893,low
+BW-0030,"Brian Nyambura",micro_business,28,"Kisumu",55684,0.54,0.43,0.75,20,0,47,0.0778,724,medium
+BW-0031,"Kelvin Chebet",informal_trader,33,"Kakamega",44372,0.77,0.44,0.82,0,0,76,0.0285,776,low
+BW-0032,"Purity Cheruiyot",smallholder_farmer,57,"Meru",37736,0.83,0.74,0.77,9,0,95,0.1109,704,medium
+BW-0033,"Lilian Cheruiyot",salaried,56,"Kajiado",51892,0.49,0.09,0.86,0,0,51,0.0055,860,low
+BW-0034,"Michael Ochieng",micro_business,44,"Kilifi",19006,0.73,0.42,0.8,0,0,60,0.0372,763,low
+BW-0035,"Alice Otieno",informal_trader,30,"Eldoret (Uasin Gishu)",71524,0.6,0.58,0.57,20,0,65,0.1956,671,high
+BW-0036,"Hellen Kariuki",smallholder_farmer,26,"Kajiado",40567,0.76,0.75,0.79,8,0,92,0.0846,719,medium
+BW-0037,"Rose Nyambura",salaried,31,"Machakos",94436,0.35,0.17,0.95,0,0,51,0.0025,900,low
+BW-0038,"Faith Kiplagat",micro_business,39,"Nyeri",69696,0.57,0.44,0.78,6,0,56,0.0312,772,low
+BW-0039,"John Mwangi",informal_trader,24,"Mombasa",15000,0.76,0.36,0.59,10,0,53,0.1525,686,high
+BW-0040,"Mary Karanja",smallholder_farmer,37,"Nairobi",46894,0.7,0.73,0.8,0,0,87,0.0455,752,low
+BW-0041,"Francis Omondi",salaried,33,"Kakamega",70922,0.53,0.17,0.97,0,0,54,0.0042,873,low
+BW-0042,"Samuel Mwangi",micro_business,27,"Eldoret (Uasin Gishu)",35068,0.53,0.32,0.73,19,0,46,0.0644,734,medium
+BW-0043,"Esther Kamau",informal_trader,25,"Machakos",59464,0.59,0.49,0.72,23,0,92,0.0682,731,medium
+BW-0044,"Paul Njoroge",smallholder_farmer,62,"Machakos",38160,0.62,0.54,0.61,18,0,69,0.1569,684,high
+BW-0045,"Mary Muthoni",salaried,57,"Kakamega",61355,0.51,0.11,0.96,0,0,48,0.004,876,low
+BW-0046,"Jane Kipchoge",micro_business,29,"Nakuru",40106,0.62,0.4,0.76,13,0,66,0.0487,749,low
+BW-0047,"Kennedy Kariuki",informal_trader,33,"Kajiado",50896,0.71,0.64,0.57,6,0,38,0.2483,655,high
+BW-0048,"Beatrice Ndung'u",smallholder_farmer,26,"Kakamega",31551,0.57,0.7,0.52,36,1,56,0.8823,499,severe
+BW-0049,"Joyce Wambui",salaried,36,"Nyeri",158980,0.46,0.15,0.97,0,0,13,0.0044,871,low
+BW-0050,"Kennedy Kamau",micro_business,38,"Nyeri",15000,0.65,0.37,0.84,0,0,59,0.0219,790,low
+BW-0051,"Agnes Koech",informal_trader,38,"Kiambu",35792,0.77,0.52,0.81,0,0,68,0.0435,755,low
+BW-0052,"Alice Chebet",smallholder_farmer,37,"Nairobi",15000,0.75,0.58,0.77,15,0,18,0.2514,655,severe

@@ -1,0 +1,1666 @@
+[
+  {
+    "id": "REP-1-1",
+    "loanId": "LN-0001",
+    "date": "2026-05-06T17:52:44.190819",
+    "type": "paid",
+    "amount": 11197,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-1-2",
+    "loanId": "LN-0001",
+    "date": "2026-06-05T17:52:44.191021",
+    "type": "paid",
+    "amount": 11197,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-1-3",
+    "loanId": "LN-0001",
+    "date": "2026-07-05T17:52:44.191178",
+    "type": "paid",
+    "amount": 11197,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-1-4",
+    "loanId": "LN-0001",
+    "date": "2026-08-04T17:52:44.191195",
+    "type": "paid",
+    "amount": 11197,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-2-1",
+    "loanId": "LN-0002",
+    "date": "2026-05-06T17:52:44.193147",
+    "type": "paid",
+    "amount": 23319,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-2-2",
+    "loanId": "LN-0002",
+    "date": "2026-06-05T17:52:44.193176",
+    "type": "paid",
+    "amount": 23319,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-2-3",
+    "loanId": "LN-0002",
+    "date": "2026-07-05T17:52:44.193188",
+    "type": "paid",
+    "amount": 23319,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-2-4",
+    "loanId": "LN-0002",
+    "date": "2026-08-04T17:52:44.193196",
+    "type": "paid",
+    "amount": 23319,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-3-1",
+    "loanId": "LN-0003",
+    "date": "2026-05-06T17:52:44.193619",
+    "type": "paid",
+    "amount": 13721,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-3-2",
+    "loanId": "LN-0003",
+    "date": "2026-06-05T17:52:44.193634",
+    "type": "paid",
+    "amount": 13721,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-3-3",
+    "loanId": "LN-0003",
+    "date": "2026-07-05T17:52:44.193644",
+    "type": "paid",
+    "amount": 13721,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-3-4",
+    "loanId": "LN-0003",
+    "date": "2026-08-04T17:52:44.193655",
+    "type": "paid",
+    "amount": 13721,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-4-1",
+    "loanId": "LN-0004",
+    "date": "2026-05-06T17:52:44.194045",
+    "type": "late",
+    "amount": 10327,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-4-2",
+    "loanId": "LN-0004",
+    "date": "2026-06-05T17:52:44.194075",
+    "type": "late",
+    "amount": 10327,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-4-3",
+    "loanId": "LN-0004",
+    "date": "2026-07-05T17:52:44.194088",
+    "type": "paid",
+    "amount": 10327,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-4-4",
+    "loanId": "LN-0004",
+    "date": "2026-08-04T17:52:44.194148",
+    "type": "paid",
+    "amount": 10327,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-5-1",
+    "loanId": "LN-0005",
+    "date": "2026-05-06T17:52:44.194769",
+    "type": "paid",
+    "amount": 13092,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-5-2",
+    "loanId": "LN-0005",
+    "date": "2026-06-05T17:52:44.194901",
+    "type": "paid",
+    "amount": 13092,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-5-3",
+    "loanId": "LN-0005",
+    "date": "2026-07-05T17:52:44.194949",
+    "type": "paid",
+    "amount": 13092,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-5-4",
+    "loanId": "LN-0005",
+    "date": "2026-08-04T17:52:44.194969",
+    "type": "paid",
+    "amount": 13092,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-6-1",
+    "loanId": "LN-0006",
+    "date": "2026-05-06T17:52:44.195468",
+    "type": "paid",
+    "amount": 12293,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-6-2",
+    "loanId": "LN-0006",
+    "date": "2026-06-05T17:52:44.195480",
+    "type": "paid",
+    "amount": 12293,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-6-3",
+    "loanId": "LN-0006",
+    "date": "2026-07-05T17:52:44.195489",
+    "type": "paid",
+    "amount": 12293,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-6-4",
+    "loanId": "LN-0006",
+    "date": "2026-08-04T17:52:44.195497",
+    "type": "paid",
+    "amount": 12293,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-7-1",
+    "loanId": "LN-0007",
+    "date": "2026-05-06T17:52:44.196111",
+    "type": "paid",
+    "amount": 14481,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-7-2",
+    "loanId": "LN-0007",
+    "date": "2026-06-05T17:52:44.196141",
+    "type": "paid",
+    "amount": 14481,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-7-3",
+    "loanId": "LN-0007",
+    "date": "2026-07-05T17:52:44.196156",
+    "type": "paid",
+    "amount": 14481,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-7-4",
+    "loanId": "LN-0007",
+    "date": "2026-08-04T17:52:44.196170",
+    "type": "paid",
+    "amount": 14481,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-8-1",
+    "loanId": "LN-0008",
+    "date": "2026-05-06T17:52:44.196753",
+    "type": "paid",
+    "amount": 26116,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-8-2",
+    "loanId": "LN-0008",
+    "date": "2026-06-05T17:52:44.196807",
+    "type": "paid",
+    "amount": 26116,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-8-3",
+    "loanId": "LN-0008",
+    "date": "2026-07-05T17:52:44.196839",
+    "type": "paid",
+    "amount": 26116,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-8-4",
+    "loanId": "LN-0008",
+    "date": "2026-08-04T17:52:44.196947",
+    "type": "paid",
+    "amount": 26116,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-9-1",
+    "loanId": "LN-0009",
+    "date": "2026-05-06T17:52:44.197309",
+    "type": "paid",
+    "amount": 30580,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-9-2",
+    "loanId": "LN-0009",
+    "date": "2026-06-05T17:52:44.197320",
+    "type": "paid",
+    "amount": 30580,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-9-3",
+    "loanId": "LN-0009",
+    "date": "2026-07-05T17:52:44.197328",
+    "type": "paid",
+    "amount": 30580,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-9-4",
+    "loanId": "LN-0009",
+    "date": "2026-08-04T17:52:44.197338",
+    "type": "paid",
+    "amount": 30580,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-10-1",
+    "loanId": "LN-0010",
+    "date": "2026-05-06T17:52:44.197553",
+    "type": "paid",
+    "amount": 23760,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-10-2",
+    "loanId": "LN-0010",
+    "date": "2026-06-05T17:52:44.197563",
+    "type": "paid",
+    "amount": 23760,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-10-3",
+    "loanId": "LN-0010",
+    "date": "2026-07-05T17:52:44.197579",
+    "type": "paid",
+    "amount": 23760,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-10-4",
+    "loanId": "LN-0010",
+    "date": "2026-08-04T17:52:44.197587",
+    "type": "paid",
+    "amount": 23760,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-11-1",
+    "loanId": "LN-0011",
+    "date": "2026-05-06T17:52:44.197918",
+    "type": "paid",
+    "amount": 8187,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-11-2",
+    "loanId": "LN-0011",
+    "date": "2026-06-05T17:52:44.197930",
+    "type": "paid",
+    "amount": 8187,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-11-3",
+    "loanId": "LN-0011",
+    "date": "2026-07-05T17:52:44.197939",
+    "type": "late",
+    "amount": 8187,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-11-4",
+    "loanId": "LN-0011",
+    "date": "2026-08-04T17:52:44.197949",
+    "type": "paid",
+    "amount": 8187,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-12-1",
+    "loanId": "LN-0012",
+    "date": "2026-05-06T17:52:44.198490",
+    "type": "late",
+    "amount": 6045,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-12-2",
+    "loanId": "LN-0012",
+    "date": "2026-06-05T17:52:44.198588",
+    "type": "late",
+    "amount": 6045,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-12-3",
+    "loanId": "LN-0012",
+    "date": "2026-07-05T17:52:44.198631",
+    "type": "late",
+    "amount": 6045,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-12-4",
+    "loanId": "LN-0012",
+    "date": "2026-08-04T17:52:44.198649",
+    "type": "paid",
+    "amount": 6045,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-13-1",
+    "loanId": "LN-0013",
+    "date": "2026-05-06T17:52:44.202587",
+    "type": "paid",
+    "amount": 13412,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-13-2",
+    "loanId": "LN-0013",
+    "date": "2026-06-05T17:52:44.202695",
+    "type": "paid",
+    "amount": 13412,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-13-3",
+    "loanId": "LN-0013",
+    "date": "2026-07-05T17:52:44.202711",
+    "type": "paid",
+    "amount": 13412,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-13-4",
+    "loanId": "LN-0013",
+    "date": "2026-08-04T17:52:44.202721",
+    "type": "paid",
+    "amount": 13412,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-14-1",
+    "loanId": "LN-0014",
+    "date": "2026-05-06T17:52:44.203484",
+    "type": "paid",
+    "amount": 19111,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-14-2",
+    "loanId": "LN-0014",
+    "date": "2026-06-05T17:52:44.203504",
+    "type": "paid",
+    "amount": 19111,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-14-3",
+    "loanId": "LN-0014",
+    "date": "2026-07-05T17:52:44.203515",
+    "type": "paid",
+    "amount": 19111,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-14-4",
+    "loanId": "LN-0014",
+    "date": "2026-08-04T17:52:44.203524",
+    "type": "paid",
+    "amount": 19111,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-15-1",
+    "loanId": "LN-0015",
+    "date": "2026-05-06T17:52:44.204093",
+    "type": "paid",
+    "amount": 3634,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-15-2",
+    "loanId": "LN-0015",
+    "date": "2026-06-05T17:52:44.204127",
+    "type": "paid",
+    "amount": 3634,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-15-3",
+    "loanId": "LN-0015",
+    "date": "2026-07-05T17:52:44.204144",
+    "type": "late",
+    "amount": 3634,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-15-4",
+    "loanId": "LN-0015",
+    "date": "2026-08-04T17:52:44.204157",
+    "type": "paid",
+    "amount": 3634,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-16-1",
+    "loanId": "LN-0016",
+    "date": "2026-05-06T17:52:44.204887",
+    "type": "paid",
+    "amount": 19383,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-16-2",
+    "loanId": "LN-0016",
+    "date": "2026-06-05T17:52:44.204912",
+    "type": "paid",
+    "amount": 19383,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-16-3",
+    "loanId": "LN-0016",
+    "date": "2026-07-05T17:52:44.204925",
+    "type": "late",
+    "amount": 19383,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-16-4",
+    "loanId": "LN-0016",
+    "date": "2026-08-04T17:52:44.204938",
+    "type": "missed",
+    "amount": 19383,
+    "note": "Installment overdue > 30 days"
+  },
+  {
+    "id": "REP-17-1",
+    "loanId": "LN-0017",
+    "date": "2026-05-06T17:52:44.205684",
+    "type": "paid",
+    "amount": 26795,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-17-2",
+    "loanId": "LN-0017",
+    "date": "2026-06-05T17:52:44.205717",
+    "type": "paid",
+    "amount": 26795,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-17-3",
+    "loanId": "LN-0017",
+    "date": "2026-07-05T17:52:44.205738",
+    "type": "paid",
+    "amount": 26795,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-17-4",
+    "loanId": "LN-0017",
+    "date": "2026-08-04T17:52:44.205786",
+    "type": "paid",
+    "amount": 26795,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-18-1",
+    "loanId": "LN-0018",
+    "date": "2026-05-06T17:52:44.206803",
+    "type": "paid",
+    "amount": 23940,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-18-2",
+    "loanId": "LN-0018",
+    "date": "2026-06-05T17:52:44.207383",
+    "type": "paid",
+    "amount": 23940,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-18-3",
+    "loanId": "LN-0018",
+    "date": "2026-07-05T17:52:44.207531",
+    "type": "paid",
+    "amount": 23940,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-18-4",
+    "loanId": "LN-0018",
+    "date": "2026-08-04T17:52:44.209579",
+    "type": "paid",
+    "amount": 23940,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-19-1",
+    "loanId": "LN-0019",
+    "date": "2026-05-06T17:52:44.210840",
+    "type": "late",
+    "amount": 26876,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-19-2",
+    "loanId": "LN-0019",
+    "date": "2026-06-05T17:52:44.210863",
+    "type": "paid",
+    "amount": 26876,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-19-3",
+    "loanId": "LN-0019",
+    "date": "2026-07-05T17:52:44.210906",
+    "type": "paid",
+    "amount": 26876,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-19-4",
+    "loanId": "LN-0019",
+    "date": "2026-08-04T17:52:44.210926",
+    "type": "paid",
+    "amount": 26876,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-20-1",
+    "loanId": "LN-0020",
+    "date": "2026-05-06T17:52:44.211602",
+    "type": "late",
+    "amount": 8767,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-20-2",
+    "loanId": "LN-0020",
+    "date": "2026-06-05T17:52:44.211679",
+    "type": "paid",
+    "amount": 8767,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-20-3",
+    "loanId": "LN-0020",
+    "date": "2026-07-05T17:52:44.211796",
+    "type": "late",
+    "amount": 8767,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-20-4",
+    "loanId": "LN-0020",
+    "date": "2026-08-04T17:52:44.211832",
+    "type": "missed",
+    "amount": 8767,
+    "note": "Installment overdue > 30 days"
+  },
+  {
+    "id": "REP-21-1",
+    "loanId": "LN-0021",
+    "date": "2026-05-06T17:52:44.212474",
+    "type": "paid",
+    "amount": 17262,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-21-2",
+    "loanId": "LN-0021",
+    "date": "2026-06-05T17:52:44.212485",
+    "type": "paid",
+    "amount": 17262,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-21-3",
+    "loanId": "LN-0021",
+    "date": "2026-07-05T17:52:44.212514",
+    "type": "paid",
+    "amount": 17262,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-21-4",
+    "loanId": "LN-0021",
+    "date": "2026-08-04T17:52:44.212530",
+    "type": "paid",
+    "amount": 17262,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-22-1",
+    "loanId": "LN-0022",
+    "date": "2026-05-06T17:52:44.212784",
+    "type": "paid",
+    "amount": 11798,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-22-2",
+    "loanId": "LN-0022",
+    "date": "2026-06-05T17:52:44.212795",
+    "type": "paid",
+    "amount": 11798,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-22-3",
+    "loanId": "LN-0022",
+    "date": "2026-07-05T17:52:44.212805",
+    "type": "paid",
+    "amount": 11798,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-22-4",
+    "loanId": "LN-0022",
+    "date": "2026-08-04T17:52:44.212814",
+    "type": "paid",
+    "amount": 11798,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-23-1",
+    "loanId": "LN-0023",
+    "date": "2026-05-06T17:52:44.213063",
+    "type": "late",
+    "amount": 15706,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-23-2",
+    "loanId": "LN-0023",
+    "date": "2026-06-05T17:52:44.213080",
+    "type": "paid",
+    "amount": 15706,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-23-3",
+    "loanId": "LN-0023",
+    "date": "2026-07-05T17:52:44.213092",
+    "type": "late",
+    "amount": 15706,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-23-4",
+    "loanId": "LN-0023",
+    "date": "2026-08-04T17:52:44.213101",
+    "type": "paid",
+    "amount": 15706,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-24-1",
+    "loanId": "LN-0024",
+    "date": "2026-05-06T17:52:44.213337",
+    "type": "paid",
+    "amount": 2959,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-24-2",
+    "loanId": "LN-0024",
+    "date": "2026-06-05T17:52:44.213372",
+    "type": "late",
+    "amount": 2959,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-24-3",
+    "loanId": "LN-0024",
+    "date": "2026-07-05T17:52:44.213389",
+    "type": "paid",
+    "amount": 2959,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-24-4",
+    "loanId": "LN-0024",
+    "date": "2026-08-04T17:52:44.213399",
+    "type": "missed",
+    "amount": 2959,
+    "note": "Installment overdue > 30 days"
+  },
+  {
+    "id": "REP-25-1",
+    "loanId": "LN-0025",
+    "date": "2026-05-06T17:52:44.213623",
+    "type": "paid",
+    "amount": 19452,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-25-2",
+    "loanId": "LN-0025",
+    "date": "2026-06-05T17:52:44.213633",
+    "type": "paid",
+    "amount": 19452,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-25-3",
+    "loanId": "LN-0025",
+    "date": "2026-07-05T17:52:44.213641",
+    "type": "paid",
+    "amount": 19452,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-25-4",
+    "loanId": "LN-0025",
+    "date": "2026-08-04T17:52:44.213655",
+    "type": "paid",
+    "amount": 19452,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-26-1",
+    "loanId": "LN-0026",
+    "date": "2026-05-06T17:52:44.213912",
+    "type": "paid",
+    "amount": 8121,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-26-2",
+    "loanId": "LN-0026",
+    "date": "2026-06-05T17:52:44.213923",
+    "type": "paid",
+    "amount": 8121,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-26-3",
+    "loanId": "LN-0026",
+    "date": "2026-07-05T17:52:44.213931",
+    "type": "paid",
+    "amount": 8121,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-26-4",
+    "loanId": "LN-0026",
+    "date": "2026-08-04T17:52:44.213938",
+    "type": "paid",
+    "amount": 8121,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-27-1",
+    "loanId": "LN-0027",
+    "date": "2026-05-06T17:52:44.214179",
+    "type": "paid",
+    "amount": 18492,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-27-2",
+    "loanId": "LN-0027",
+    "date": "2026-06-05T17:52:44.214188",
+    "type": "late",
+    "amount": 18492,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-27-3",
+    "loanId": "LN-0027",
+    "date": "2026-07-05T17:52:44.214206",
+    "type": "paid",
+    "amount": 18492,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-27-4",
+    "loanId": "LN-0027",
+    "date": "2026-08-04T17:52:44.214221",
+    "type": "missed",
+    "amount": 18492,
+    "note": "Installment overdue > 30 days"
+  },
+  {
+    "id": "REP-28-1",
+    "loanId": "LN-0028",
+    "date": "2026-05-06T17:52:44.214445",
+    "type": "late",
+    "amount": 4392,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-28-2",
+    "loanId": "LN-0028",
+    "date": "2026-06-05T17:52:44.214459",
+    "type": "paid",
+    "amount": 4392,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-28-3",
+    "loanId": "LN-0028",
+    "date": "2026-07-05T17:52:44.214469",
+    "type": "late",
+    "amount": 4392,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-28-4",
+    "loanId": "LN-0028",
+    "date": "2026-08-04T17:52:44.214477",
+    "type": "late",
+    "amount": 4392,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-29-1",
+    "loanId": "LN-0029",
+    "date": "2026-05-06T17:52:44.214687",
+    "type": "paid",
+    "amount": 26318,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-29-2",
+    "loanId": "LN-0029",
+    "date": "2026-06-05T17:52:44.214696",
+    "type": "paid",
+    "amount": 26318,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-29-3",
+    "loanId": "LN-0029",
+    "date": "2026-07-05T17:52:44.214704",
+    "type": "paid",
+    "amount": 26318,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-29-4",
+    "loanId": "LN-0029",
+    "date": "2026-08-04T17:52:44.214712",
+    "type": "paid",
+    "amount": 26318,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-30-1",
+    "loanId": "LN-0030",
+    "date": "2026-05-06T17:52:44.214932",
+    "type": "paid",
+    "amount": 8493,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-30-2",
+    "loanId": "LN-0030",
+    "date": "2026-06-05T17:52:44.214941",
+    "type": "paid",
+    "amount": 8493,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-30-3",
+    "loanId": "LN-0030",
+    "date": "2026-07-05T17:52:44.214949",
+    "type": "paid",
+    "amount": 8493,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-30-4",
+    "loanId": "LN-0030",
+    "date": "2026-08-04T17:52:44.214956",
+    "type": "paid",
+    "amount": 8493,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-31-1",
+    "loanId": "LN-0031",
+    "date": "2026-05-06T17:52:44.215210",
+    "type": "paid",
+    "amount": 8937,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-31-2",
+    "loanId": "LN-0031",
+    "date": "2026-06-05T17:52:44.215219",
+    "type": "paid",
+    "amount": 8937,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-31-3",
+    "loanId": "LN-0031",
+    "date": "2026-07-05T17:52:44.215227",
+    "type": "paid",
+    "amount": 8937,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-31-4",
+    "loanId": "LN-0031",
+    "date": "2026-08-04T17:52:44.215235",
+    "type": "paid",
+    "amount": 8937,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-32-1",
+    "loanId": "LN-0032",
+    "date": "2026-05-06T17:52:44.215441",
+    "type": "paid",
+    "amount": 6887,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-32-2",
+    "loanId": "LN-0032",
+    "date": "2026-06-05T17:52:44.215458",
+    "type": "paid",
+    "amount": 6887,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-32-3",
+    "loanId": "LN-0032",
+    "date": "2026-07-05T17:52:44.215467",
+    "type": "paid",
+    "amount": 6887,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-32-4",
+    "loanId": "LN-0032",
+    "date": "2026-08-04T17:52:44.215476",
+    "type": "paid",
+    "amount": 6887,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-33-1",
+    "loanId": "LN-0033",
+    "date": "2026-05-06T17:52:44.215712",
+    "type": "paid",
+    "amount": 20346,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-33-2",
+    "loanId": "LN-0033",
+    "date": "2026-06-05T17:52:44.215728",
+    "type": "paid",
+    "amount": 20346,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-33-3",
+    "loanId": "LN-0033",
+    "date": "2026-07-05T17:52:44.215736",
+    "type": "paid",
+    "amount": 20346,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-33-4",
+    "loanId": "LN-0033",
+    "date": "2026-08-04T17:52:44.215744",
+    "type": "paid",
+    "amount": 20346,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-34-1",
+    "loanId": "LN-0034",
+    "date": "2026-05-06T17:52:44.215974",
+    "type": "paid",
+    "amount": 4255,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-34-2",
+    "loanId": "LN-0034",
+    "date": "2026-06-05T17:52:44.215984",
+    "type": "paid",
+    "amount": 4255,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-34-3",
+    "loanId": "LN-0034",
+    "date": "2026-07-05T17:52:44.215992",
+    "type": "paid",
+    "amount": 4255,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-34-4",
+    "loanId": "LN-0034",
+    "date": "2026-08-04T17:52:44.215999",
+    "type": "paid",
+    "amount": 4255,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-35-1",
+    "loanId": "LN-0035",
+    "date": "2026-05-06T17:52:44.216215",
+    "type": "late",
+    "amount": 12609,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-35-2",
+    "loanId": "LN-0035",
+    "date": "2026-06-05T17:52:44.216223",
+    "type": "late",
+    "amount": 12609,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-35-3",
+    "loanId": "LN-0035",
+    "date": "2026-07-05T17:52:44.216232",
+    "type": "late",
+    "amount": 12609,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-35-4",
+    "loanId": "LN-0035",
+    "date": "2026-08-04T17:52:44.216255",
+    "type": "late",
+    "amount": 12609,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-36-1",
+    "loanId": "LN-0036",
+    "date": "2026-05-06T17:52:44.216651",
+    "type": "paid",
+    "amount": 14297,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-36-2",
+    "loanId": "LN-0036",
+    "date": "2026-06-05T17:52:44.216664",
+    "type": "paid",
+    "amount": 14297,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-36-3",
+    "loanId": "LN-0036",
+    "date": "2026-07-05T17:52:44.216673",
+    "type": "paid",
+    "amount": 14297,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-36-4",
+    "loanId": "LN-0036",
+    "date": "2026-08-04T17:52:44.216681",
+    "type": "paid",
+    "amount": 14297,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-37-1",
+    "loanId": "LN-0037",
+    "date": "2026-05-06T17:52:44.217302",
+    "type": "paid",
+    "amount": 40055,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-37-2",
+    "loanId": "LN-0037",
+    "date": "2026-06-05T17:52:44.217424",
+    "type": "paid",
+    "amount": 40055,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-37-3",
+    "loanId": "LN-0037",
+    "date": "2026-07-05T17:52:44.217455",
+    "type": "paid",
+    "amount": 40055,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-37-4",
+    "loanId": "LN-0037",
+    "date": "2026-08-04T17:52:44.217478",
+    "type": "paid",
+    "amount": 40055,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-38-1",
+    "loanId": "LN-0038",
+    "date": "2026-05-06T17:52:44.218009",
+    "type": "paid",
+    "amount": 14035,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-38-2",
+    "loanId": "LN-0038",
+    "date": "2026-06-05T17:52:44.218121",
+    "type": "paid",
+    "amount": 14035,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-38-3",
+    "loanId": "LN-0038",
+    "date": "2026-07-05T17:52:44.218140",
+    "type": "paid",
+    "amount": 14035,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-38-4",
+    "loanId": "LN-0038",
+    "date": "2026-08-04T17:52:44.218174",
+    "type": "paid",
+    "amount": 14035,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-39-1",
+    "loanId": "LN-0039",
+    "date": "2026-05-06T17:52:44.218667",
+    "type": "late",
+    "amount": 4904,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-39-2",
+    "loanId": "LN-0039",
+    "date": "2026-06-05T17:52:44.218682",
+    "type": "late",
+    "amount": 4904,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-39-3",
+    "loanId": "LN-0039",
+    "date": "2026-07-05T17:52:44.218692",
+    "type": "late",
+    "amount": 4904,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-39-4",
+    "loanId": "LN-0039",
+    "date": "2026-08-04T17:52:44.218704",
+    "type": "paid",
+    "amount": 4904,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-40-1",
+    "loanId": "LN-0040",
+    "date": "2026-05-06T17:52:44.218983",
+    "type": "paid",
+    "amount": 19943,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-40-2",
+    "loanId": "LN-0040",
+    "date": "2026-06-05T17:52:44.218994",
+    "type": "paid",
+    "amount": 19943,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-40-3",
+    "loanId": "LN-0040",
+    "date": "2026-07-05T17:52:44.219003",
+    "type": "paid",
+    "amount": 19943,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-40-4",
+    "loanId": "LN-0040",
+    "date": "2026-08-04T17:52:44.219011",
+    "type": "paid",
+    "amount": 19943,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-41-1",
+    "loanId": "LN-0041",
+    "date": "2026-05-06T17:52:44.219317",
+    "type": "paid",
+    "amount": 13435,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-41-2",
+    "loanId": "LN-0041",
+    "date": "2026-06-05T17:52:44.219327",
+    "type": "paid",
+    "amount": 13435,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-41-3",
+    "loanId": "LN-0041",
+    "date": "2026-07-05T17:52:44.219336",
+    "type": "paid",
+    "amount": 13435,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-41-4",
+    "loanId": "LN-0041",
+    "date": "2026-08-04T17:52:44.219344",
+    "type": "paid",
+    "amount": 13435,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-42-1",
+    "loanId": "LN-0042",
+    "date": "2026-05-06T17:52:44.219752",
+    "type": "paid",
+    "amount": 12221,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-42-2",
+    "loanId": "LN-0042",
+    "date": "2026-06-05T17:52:44.219797",
+    "type": "late",
+    "amount": 12221,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-42-3",
+    "loanId": "LN-0042",
+    "date": "2026-07-05T17:52:44.219807",
+    "type": "late",
+    "amount": 12221,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-42-4",
+    "loanId": "LN-0042",
+    "date": "2026-08-04T17:52:44.219815",
+    "type": "late",
+    "amount": 12221,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-43-1",
+    "loanId": "LN-0043",
+    "date": "2026-05-06T17:52:44.220438",
+    "type": "paid",
+    "amount": 13022,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-43-2",
+    "loanId": "LN-0043",
+    "date": "2026-06-05T17:52:44.220452",
+    "type": "paid",
+    "amount": 13022,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-43-3",
+    "loanId": "LN-0043",
+    "date": "2026-07-05T17:52:44.220461",
+    "type": "paid",
+    "amount": 13022,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-43-4",
+    "loanId": "LN-0043",
+    "date": "2026-08-04T17:52:44.220468",
+    "type": "late",
+    "amount": 13022,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-44-1",
+    "loanId": "LN-0044",
+    "date": "2026-05-06T17:52:44.220868",
+    "type": "late",
+    "amount": 8580,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-44-2",
+    "loanId": "LN-0044",
+    "date": "2026-06-05T17:52:44.220885",
+    "type": "late",
+    "amount": 8580,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-44-3",
+    "loanId": "LN-0044",
+    "date": "2026-07-05T17:52:44.220893",
+    "type": "late",
+    "amount": 8580,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-44-4",
+    "loanId": "LN-0044",
+    "date": "2026-08-04T17:52:44.220900",
+    "type": "paid",
+    "amount": 8580,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-45-1",
+    "loanId": "LN-0045",
+    "date": "2026-05-06T17:52:44.221176",
+    "type": "paid",
+    "amount": 19614,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-45-2",
+    "loanId": "LN-0045",
+    "date": "2026-06-05T17:52:44.221186",
+    "type": "paid",
+    "amount": 19614,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-45-3",
+    "loanId": "LN-0045",
+    "date": "2026-07-05T17:52:44.221194",
+    "type": "paid",
+    "amount": 19614,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-45-4",
+    "loanId": "LN-0045",
+    "date": "2026-08-04T17:52:44.221201",
+    "type": "paid",
+    "amount": 19614,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-46-1",
+    "loanId": "LN-0046",
+    "date": "2026-05-06T17:52:44.221829",
+    "type": "paid",
+    "amount": 9212,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-46-2",
+    "loanId": "LN-0046",
+    "date": "2026-06-05T17:52:44.221838",
+    "type": "paid",
+    "amount": 9212,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-46-3",
+    "loanId": "LN-0046",
+    "date": "2026-07-05T17:52:44.221846",
+    "type": "paid",
+    "amount": 9212,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-46-4",
+    "loanId": "LN-0046",
+    "date": "2026-08-04T17:52:44.221867",
+    "type": "paid",
+    "amount": 9212,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-47-1",
+    "loanId": "LN-0047",
+    "date": "2026-05-06T17:52:44.222119",
+    "type": "late",
+    "amount": 11093,
+    "note": "Paid via M-Pesa Till"
+  },
+  {
+    "id": "REP-47-2",
+    "loanId": "LN-0047",
+    "date": "2026-06-05T17:52:44.222132",
+    "type": "paid",
+    "amount": 11093,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-47-3",
+    "loanId": "LN-0047",
+    "date": "2026-07-05T17:52:44.222140",
+    "type": "paid",
+    "amount": 11093,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-47-4",
+    "loanId": "LN-0047",
+    "date": "2026-08-04T17:52:44.222147",
+    "type": "paid",
+    "amount": 11093,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-48-1",
+    "loanId": "LN-0048",
+    "date": "2026-05-06T17:52:44.222372",
+    "type": "paid",
+    "amount": 5010,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-48-2",
+    "loanId": "LN-0048",
+    "date": "2026-06-05T17:52:44.222381",
+    "type": "paid",
+    "amount": 5010,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-48-3",
+    "loanId": "LN-0048",
+    "date": "2026-07-05T17:52:44.222389",
+    "type": "paid",
+    "amount": 5010,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-48-4",
+    "loanId": "LN-0048",
+    "date": "2026-08-04T17:52:44.222397",
+    "type": "missed",
+    "amount": 5010,
+    "note": "Installment overdue > 30 days"
+  },
+  {
+    "id": "REP-49-1",
+    "loanId": "LN-0049",
+    "date": "2026-05-06T17:52:44.222624",
+    "type": "paid",
+    "amount": 21775,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-49-2",
+    "loanId": "LN-0049",
+    "date": "2026-06-05T17:52:44.222633",
+    "type": "paid",
+    "amount": 21775,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-49-3",
+    "loanId": "LN-0049",
+    "date": "2026-07-05T17:52:44.222649",
+    "type": "paid",
+    "amount": 21775,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-49-4",
+    "loanId": "LN-0049",
+    "date": "2026-08-04T17:52:44.222662",
+    "type": "paid",
+    "amount": 21775,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-50-1",
+    "loanId": "LN-0050",
+    "date": "2026-05-06T17:52:44.222862",
+    "type": "paid",
+    "amount": 6656,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-50-2",
+    "loanId": "LN-0050",
+    "date": "2026-06-05T17:52:44.222870",
+    "type": "paid",
+    "amount": 6656,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-50-3",
+    "loanId": "LN-0050",
+    "date": "2026-07-05T17:52:44.222878",
+    "type": "paid",
+    "amount": 6656,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-50-4",
+    "loanId": "LN-0050",
+    "date": "2026-08-04T17:52:44.222885",
+    "type": "paid",
+    "amount": 6656,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-51-1",
+    "loanId": "LN-0051",
+    "date": "2026-05-06T17:52:44.223141",
+    "type": "paid",
+    "amount": 9942,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-51-2",
+    "loanId": "LN-0051",
+    "date": "2026-06-05T17:52:44.223183",
+    "type": "paid",
+    "amount": 9942,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-51-3",
+    "loanId": "LN-0051",
+    "date": "2026-07-05T17:52:44.223193",
+    "type": "paid",
+    "amount": 9942,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-51-4",
+    "loanId": "LN-0051",
+    "date": "2026-08-04T17:52:44.223201",
+    "type": "paid",
+    "amount": 9942,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-52-1",
+    "loanId": "LN-0052",
+    "date": "2026-05-06T17:52:44.223448",
+    "type": "paid",
+    "amount": 5742,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-52-2",
+    "loanId": "LN-0052",
+    "date": "2026-06-05T17:52:44.223465",
+    "type": "paid",
+    "amount": 5742,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-52-3",
+    "loanId": "LN-0052",
+    "date": "2026-07-05T17:52:44.223475",
+    "type": "paid",
+    "amount": 5742,
+    "note": "On-time deduction"
+  },
+  {
+    "id": "REP-52-4",
+    "loanId": "LN-0052",
+    "date": "2026-08-04T17:52:44.223483",
+    "type": "paid",
+    "amount": 5742,
+    "note": "On-time deduction"
+  }
+]
