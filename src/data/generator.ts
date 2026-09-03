@@ -8,7 +8,7 @@ import type {
   TransactionBehaviour,
   RepaymentBehaviour,
 } from "@/lib/types";
-import { calculateRiskAssessment } from "@/lib/risk-engine";
+import { scoreApplicant } from "@/lib/risk-engine";
 
 // 4 Economic Segments
 export type SegmentType = "salaried" | "micro_business" | "informal_trader" | "smallholder_farmer";
@@ -27,7 +27,7 @@ export const KENYAN_COUNTIES = [
   "Kajiado",
   "Kilifi",
   "Kakamega",
-];
+] as const;
 
 export const FIRST_NAMES = [
   "Samuel", "Mary", "David", "Grace", "Peter", "Faith", "Joseph", "Joyce",
@@ -35,14 +35,14 @@ export const FIRST_NAMES = [
   "Francis", "Winnie", "George", "Rose", "Paul", "Caroline", "James", "Lilian",
   "Kelvin", "Purity", "Dennis", "Jane", "Brian", "Alice", "Kennedy", "Hellen",
   "Antony", "Sarah", "Victor", "Gladys", "Patrick", "Eunice", "Geoffrey", "Lucy",
-];
+] as const;
 
 export const LAST_NAMES = [
   "Kipchoge", "Wanjiku", "Ochieng", "Muthoni", "Mwangi", "Achieng", "Kariuki",
   "Wambui", "Kamau", "Otieno", "Njoroge", "Nyambura", "Cheruiyot", "Chebet",
   "Kiplagat", "Mutua", "Ndung'u", "Omondi", "Maina", "Koech", "Karanja",
   "Wafula", "Simiyu", "Barasa", "Githinji", "Njeri", "Kimani", "Kiprono",
-];
+] as const;
 
 export const LOAN_PURPOSES: LoanPurpose[] = [
   "business_working_capital",
@@ -77,8 +77,13 @@ export class SeededRandom {
     return parseFloat(val.toFixed(decimals));
   }
 
-  choice<T>(arr: T[]): T {
-    return arr[Math.floor(this.next() * arr.length)];
+  choice<T>(arr: readonly T[] | T[]): T {
+    const idx = Math.floor(this.next() * arr.length);
+    const item = arr[idx];
+    if (item === undefined) {
+      throw new Error("Cannot choose from empty array");
+    }
+    return item;
   }
 
   sampleLogNormal(mean: number, stdDev: number): number {
@@ -171,17 +176,17 @@ export function generateSyntheticDataset(count = 52, seed = 101) {
     },
   };
 
-  const segments: SegmentType[] = [
+  const segments = [
     "salaried",
     "micro_business",
     "informal_trader",
     "smallholder_farmer",
-  ];
+  ] as const;
 
   for (let i = 1; i <= count; i++) {
     const id = `BW-${String(i).padStart(4, "0")}`;
     const name = `${rng.choice(FIRST_NAMES)} ${rng.choice(LAST_NAMES)}`;
-    const segment = segments[(i - 1) % segments.length];
+    const segment: SegmentType = segments[(i - 1) % segments.length]!;
     const archetype = segmentArchetypes[segment];
 
     const age = rng.intBetween(23, 62);
@@ -234,8 +239,8 @@ export function generateSyntheticDataset(count = 52, seed = 101) {
       onTimeRate: consistency,
     };
 
-    // Calculate preliminary score using transparent engine
-    const assessment = calculateRiskAssessment({
+    // Calculate preliminary score using transparent scoring engine
+    const assessment = scoreApplicant({
       age,
       monthlyIncome,
       employmentStatus,
