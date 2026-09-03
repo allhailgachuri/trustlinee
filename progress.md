@@ -19,7 +19,7 @@ This report details what has been engineered across **Steps 1, 2, and 3**, the t
 
 ## 🏗️ Architecture & Implementation Verification Matrix
 
-```
+```text
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
 │                        QUALITY ENGINEERING VERIFICATION MATRIX                         │
 ├──────────────────────┬───────────────────────────────┬──────────────────┬──────────────┤
@@ -43,16 +43,20 @@ This report details what has been engineered across **Steps 1, 2, and 3**, the t
 ## 🌟 Detailed Analysis of Completed Capabilities
 
 ### 1. Step 1: Presentation Tier & Financial UI Design System
+
 - **Relevance & Impact**:
   Credit risk analysts and chief risk officers (CROs) require high-contrast, clutter-free interfaces where risk status is immediately legible.
+
 - **What Was Built**:
   - Semantic financial tokens in `src/styles.css` (`bg-risk-low-soft`, `text-risk-low` through `bg-risk-severe-soft`, `text-risk-severe`).
   - Visual primitives including the radial **`ScoreGauge`** (300–900 scale), directional **`ContributionBars`** (SHAP value attributions), and metric **`KpiCard`** components.
   - Evaluation Sandbox preloaded with supervisor credentials for **Dr. Sarah Kimani** (Head of Credit Risk).
 
 ### 2. Step 2: Synthetic Data Engineering & Kenyan Alternative Schemas
+
 - **Relevance & Impact**:
   Financial models cannot be demonstrated on toy data. The synthetic data engine models actual East African economic realities with statistical integrity.
+
 - **What Was Built**:
   - Parametric generators in `src/data/generator.ts` and `scripts/generate_synthetic_data.py`.
   - Realistic statistical distributions across 4 segments:
@@ -63,8 +67,10 @@ This report details what has been engineered across **Steps 1, 2, and 3**, the t
   - Exported canonical datasets in `data/` for 52 borrowers, 52 credit facilities, 52 applications, and 208 repayment logs in Kenyan Shillings (KES).
 
 ### 3. Step 3: Enterprise FastAPI Microservice & REST Architecture
+
 - **Relevance & Impact**:
   Decouples scoring inference from UI rendering, enabling programmatic integration into core banking engines, loan origination systems (LOS), and digital wallet gateways.
+
 - **What Was Built**:
   - Clean modular architecture in `api/`: `risk.py`, `applications.py`, `borrowers.py`, `portfolio.py`, `model.py`, `reports.py`, `admin.py`.
   - High-speed scoring engine calculating calibrated PD and SHAP attributions in $<15\text{ms}$.
@@ -81,10 +87,12 @@ Follow these test scenarios to thoroughly evaluate every feature in the platform
 
 ### Test Suite 1: Evaluation Sandbox & 1-Click Authentication
 
-#### Objective
+#### Objective 1: Verify 1-Click Access
+
 Verify instantaneous access to the supervisor evaluation sandbox without manual credential entry.
 
-#### Execution Steps
+#### Execution Steps 1
+
 1. Navigate to `http://localhost:8080/auth/login`.
 2. Observe the blue **"EVALUATION SANDBOX • 1-CLICK ACCESS"** panel highlighting **Dr. Sarah Kimani** (Head of Credit Risk / Admin).
 3. Click **"1-Click Launch Evaluation Sandbox"**.
@@ -97,10 +105,12 @@ Verify instantaneous access to the supervisor evaluation sandbox without manual 
 
 ### Test Suite 2: Executive Risk Dashboard & Priority Underwriting Queue
 
-#### Objective
+#### Objective 2: Validate Risk KPI Aggregations
+
 Validate aggregate financial KPI calculations, risk distribution charts, and real-time triage queue.
 
-#### Execution Steps
+#### Execution Steps 2
+
 1. In the sidebar, navigate to **Dashboard** (`/app/dashboard`).
 2. Verify the 8 top-level financial KPI cards:
    - *Total Active Borrowers* (52)
@@ -121,10 +131,12 @@ Validate aggregate financial KPI calculations, risk distribution charts, and rea
 
 ### Test Suite 3: Underwriting Application Dossier & Decisioning
 
-#### Objective
+#### Objective 3: Audit Dossier Decision Flow
+
 Audit the 360° application view, SHAP feature attribution waterfall, and decision submission with immutable audit logging.
 
-#### Execution Steps
+#### Execution Steps 3
+
 1. Navigate to **Applications** (`/app/applications`).
 2. Use the filter dropdowns to select `Status: Pending` or `Risk Band: High`.
 3. Click on an application (e.g. `APP-0004` or `APP-0012`).
@@ -142,10 +154,12 @@ Audit the 360° application view, SHAP feature attribution waterfall, and decisi
 
 ### Test Suite 4: Interactive Risk Scoring Simulator (`/app/risk-assessment`)
 
-#### Objective
+#### Objective 4: Dynamic SHAP Recalculation
+
 Verify the real-time scoring calculator and dynamic SHAP feature recalculation.
 
-#### Execution Steps
+#### Execution Steps 4
+
 1. Navigate to **Risk Assessment** (`/app/risk-assessment`).
 2. Click the preset buttons at the top:
    - Click **"Low Risk Borrower"**: Observe Score $\approx 780–840$, $\text{PD} < 4\%$, Green Zone.
@@ -163,10 +177,12 @@ Verify the real-time scoring calculator and dynamic SHAP feature recalculation.
 
 ### Test Suite 5: Borrower 360° Profile & 12-Month Mobile Cash Flow Audit
 
-#### Objective
+#### Objective 5: Continuous Alternative Monitoring
+
 Evaluate continuous alternative data monitoring and cashflow telemetry.
 
-#### Execution Steps
+#### Execution Steps 5
+
 1. Navigate to **Borrowers** (`/app/borrowers`).
 2. Filter by segment (e.g. `Micro Business` or `Smallholder Farmer`).
 3. Click on a borrower (e.g. `BW-0002` or `BW-0005`).
@@ -181,10 +197,12 @@ Evaluate continuous alternative data monitoring and cashflow telemetry.
 
 ### Test Suite 6: Portfolio Risk, Econometrics & Vintage Cohorts
 
-#### Objective
+#### Objective 6: Dual-Lens Capital Exposure Validation
+
 Verify dual-lens capital exposure analysis and cohort default loss tracking.
 
-#### Execution Steps
+#### Execution Steps 6
+
 1. Navigate to **Portfolio** (`/app/portfolio`).
    - Compare the **Risk Distribution by Count** vs **Risk Distribution by Monetary Capital Exposure** pie charts.
 2. Navigate to **Analytics** (`/app/analytics`).
@@ -198,10 +216,12 @@ Verify dual-lens capital exposure analysis and cohort default loss tracking.
 
 ### Test Suite 7: Model Intelligence, Benchmarks & PSI Drift Monitoring
 
-#### Objective
+#### Objective 7: Model Governance Validation
+
 Audit the statistical governance console comparing XGBoost vs Logistic Scorecards.
 
-#### Execution Steps
+#### Execution Steps 7
+
 1. Navigate to **Model Intelligence** (`/app/model-intelligence`).
 2. Review the **Benchmark Comparison Matrix**:
    - *XGBoost Primary*: AUC = `0.884`, KS = `54.2`, Precision = `82.4%`, Recall = `79.1%`.
@@ -216,10 +236,12 @@ Audit the statistical governance console comparing XGBoost vs Logistic Scorecard
 
 ### Test Suite 8: Institutional Reports & Print/PDF Export
 
-#### Objective
+#### Objective 8: Institutional Digest Compilation
+
 Verify automated executive report compilation and printer-friendly PDF formatting.
 
-#### Execution Steps
+#### Execution Steps 8
+
 1. Navigate to **Reports** (`/app/reports`).
 2. Click **"Generate Report"**, select `Report Type: Portfolio Risk`, and submit.
 3. Click **"View Executive Report"** on any report card (e.g. `/app/reports/REP-2026-001`).
@@ -232,10 +254,12 @@ Verify automated executive report compilation and printer-friendly PDF formattin
 
 ### Test Suite 9: System Administration, Risk Rules & Audit Stream
 
-#### Objective
+#### Objective 9: Policy Boundary Adjustment Verification
+
 Validate policy boundary adjustments and compliance logging.
 
-#### Execution Steps
+#### Execution Steps 9
+
 1. Navigate to **Admin** (`/app/admin`) $\to$ **Risk Rules** (`/app/admin/risk-rules`).
 2. Adjust the **Fast-Track Auto-Approval Cutoff** (e.g. from $3.5\%$ to $4.0\%$) and click **"Apply Policy Adjustments"**.
 3. Confirm in the modal dialog.
@@ -247,21 +271,28 @@ Validate policy boundary adjustments and compliance logging.
 
 ### Test Suite 10: FastAPI Backend REST Endpoints
 
-#### Objective
+#### Objective 10: OpenAPI Endpoint Verification
+
 Verify Python FastAPI microservice endpoints and OpenAPI Swagger documentation.
 
-#### Execution Steps
+#### Execution Steps 10
+
 Run the backend server:
+
 ```bash
 uvicorn api.main:app --host 127.0.0.1 --port 8000
 ```
+
 Then execute tests against the endpoints:
+
 1. **Health Check**:
+
    ```bash
    curl http://127.0.0.1:8000/health
-   # Returns: {"status": "healthy", "services": {"scoring_engine": "online", ...}}
    ```
+
 2. **Real-Time Score Prediction**:
+
    ```bash
    curl -X POST http://127.0.0.1:8000/api/v1/risk/score \
      -H "Content-Type: application/json" \
@@ -287,6 +318,7 @@ Then execute tests against the endpoints:
        "activeAccounts": 2
      }'
    ```
+
 3. **Swagger UI**: Open `http://127.0.0.1:8000/docs` in your browser to inspect interactive OpenAPI documentation.
 
 ---
