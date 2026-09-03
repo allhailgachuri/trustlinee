@@ -1,0 +1,17 @@
+# Render Deployment Blueprint for Trustline Insight Backend Microservice
+
+services:
+  - type: web
+    name: trustline-api
+    runtime: docker
+    plan: starter
+    region: frankfurt # Low latency to East Africa / EMEA
+    dockerfilePath: Dockerfile
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: 8000
+      - key: ENVIRONMENT
+        value: production
+      - key: JURISDICTION
+        value: Kenya
